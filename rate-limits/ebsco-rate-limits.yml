@@ -1,0 +1,43 @@
+generated: '2026-10-14'
+method: searched
+generator: extract-docs-artifacts.py (local)
+source: https://developer.ebsco.com/ebscohost-api/docs/environment.md
+sources:
+- https://developer.ebsco.com/ebscohost-api/docs/environment.md
+- https://developer.ebsco.com/entitlement-api/docs/rate-limits.md
+- https://developer.ebsco.com/knowledge-services/docs/holdingsiq-environment.md
+- https://developer.ebsco.com/knowledge-services/docs/linkiq-environment.md
+name: EBSCO rate limits
+limits:
+- name: Entitlement API Live
+  limit_text: Live Rate Limit per Client Application - 5000 requests per minute
+  max: 5000
+  window: minute
+  endpoint: Entitlement API
+- name: Entitlement API Sandbox
+  limit_text: Sandbox Rate Limit per Client Application - 5000 requests per minute
+  max: 5000
+  window: minute
+  endpoint: Entitlement API
+- name: HoldingsIQ Live Daily
+  limit_text: Live Daily Rate Limit per Customer ID - 30000 requests per day
+  max: 30000
+  window: day
+  endpoint: HoldingsIQ
+- name: HoldingsIQ Sandbox Daily
+  limit_text: Sandbox Daily Rate Limit per Customer ID - 10000 requests per day
+  max: 10000
+  window: day
+  endpoint: HoldingsIQ
+- name: LinkIQ Live
+  limit_text: Live Rate Limit per Customer ID - 500 requests per minute
+  max: 500
+  window: minute
+  endpoint: LinkIQ
+- name: LinkIQ Sandbox
+  limit_text: Sandbox Rate Limit per Customer ID - 500 requests per minute
+  max: 500
+  window: minute
+  endpoint: LinkIQ
+exhaustion_status: 429
+docs: https://developer.ebsco.com/ebscohost-api/docs/environment.md

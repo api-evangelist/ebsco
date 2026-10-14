@@ -1,0 +1,166 @@
+openapi: 3.1.0
+info:
+  title: EBSCO API
+  version: '2026-10-14'
+  description: 'GENERATED FROM DOCUMENTATION by API Evangelist on 2026-10-14: 2 operation(s) read from 6 public documentation page(s) (each operation
+    names its page in x-source). This is not the provider''s published contract; EBSCO has published no machine-readable contract that the pipeline
+    could find. Engine: local.'
+  x-evidence-tiers:
+    code-example: 0
+    documentation: 2
+    pages-with-code: 0
+    pages-read: 6
+  x-generated-from: documentation
+  x-provenance: generated
+  x-authored-by: API Evangelist
+  x-generated: '2026-10-14'
+  x-generator: generate-contract-from-docs.py
+  x-engine: local
+  x-sources:
+  - https://developer.ebsco.com/dynamed/reference/get-change-alerts.md
+  - https://developer.ebsco.com/dynamed/reference/topic-metadata-v2.md
+  - https://developer.ebsco.com/dynamed/reference/post-transfertoken-v1.md
+  - https://developer.ebsco.com/dynamed/reference/get-content-change-alerts.md
+  - https://developer.ebsco.com/knowledge-services/reference/get_custid-holdings.md
+  - https://developer.ebsco.com/knowledge-services/reference/post_custid-holdings.md
+servers:
+- url: https://apis.ebsco.com/medsapi-dynamed
+paths:
+  /content/change-alerts:
+    get:
+      operationId: get_content_change_alerts
+      tags:
+      - Content
+      summary: Retrieve Change Alerts
+      description: The DynaMed API GET /content/change-alerts endpoint returns change alerts for all topics.
+      x-source: https://developer.ebsco.com/dynamed/reference/get-change-alerts.md
+      parameters:
+      - name: limit
+        in: query
+        required: false
+        schema:
+          type: string
+        description: Returns specified number of records, if not provided defaults to 5, max is any number less than 100
+      - name: updatesPriorities
+        in: query
+        required: false
+        schema:
+          type: string
+        description: 'Comma separated list of priorities for all updates. For eg: ppc,standard,lowplus'
+      responses:
+        '200':
+          description: Success (status as documented)
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/GetContentChangeAlertsResponse'
+      x-evidence:
+        kind: documentation
+  /publishers/{publisherid}/documents/{documentid}:
+    get:
+      operationId: get_publishers_publisherid_documents_documentid
+      tags:
+      - Publishers
+      summary: Search for Article Metadata
+      description: The DynaMedex API GET /publishers/{publisherId}/documents/{documentId} endpoint returns the article metadata matching the publisher
+        and document ID provided. The publisher ID and article ID parameters are required for the endpoint.
+      x-source: https://developer.ebsco.com/dynamed/reference/topic-metadata-v2.md
+      parameters:
+      - name: publisherid
+        in: path
+        required: true
+        schema:
+          type: string
+      - name: documentid
+        in: path
+        required: true
+        schema:
+          type: string
+      responses:
+        '2000':
+          description: Success (status as documented)
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/GetPublishersPublisheridDocumentsDocumentidResponse'
+      x-evidence:
+        kind: documentation
+components:
+  schemas:
+    GetContentChangeAlertsResponse:
+      type: object
+      properties:
+        _metadata:
+          type: object
+        _metadata.links:
+          type: array
+        _metadata.links[].rel:
+          type: string
+          description: rel link
+        _metadata.links[].href:
+          type: string
+          description: href link
+        _metadata.totalItems:
+          type: number
+          description: Total number of items returned.
+        items:
+          type: array
+          description: All updates, available at all cases
+        items[].updatesText:
+          type: string
+          description: Updated text
+        items[].updatedAtTimestamp:
+          type: string
+          description: Timestamp when the update occurred
+        items[].asDate:
+          type: string
+          description: Timestamp when the update occurred
+        items[].practiceChangingUpdate:
+          type: boolean
+          description: Is this a practice changing update
+        items[].updatePriority:
+          type: string
+          description: Update priority
+        items[].updateType:
+          type: string
+          description: Update type
+        items[].relevantTopics:
+          type: array
+        items[].relevantTopics[].id:
+          type: string
+          description: Id for the topic
+        items[].relevantTopics[].anchor:
+          type: string
+          description: Link to the update within the topic
+        items[].relevantTopics[].practiceChangingUpdate:
+          type: boolean
+          description: Is this a practice changing update
+        items[].relevantTopics[].slug:
+          type: string
+          description: 'Slug of the topic - this gets appended to the domain ex: www.dynamed.com/slug'
+        items[].relevantTopics[].title:
+          type: string
+          description: Title of the topic
+    GetPublishersPublisheridDocumentsDocumentidResponse:
+      type: object
+      properties:
+        id:
+          type: string
+          description: Unique identifier for this resource
+        links:
+          type: array
+          description: Hypermedia links related to this resource.
+        article:
+          type: object
+          description: Article related to this resource
+  securitySchemes:
+    x-api-key:
+      type: apiKey
+      in: header
+      name: x-api-key
+      x-source: https://developer.ebsco.com/ebscohost-api/docs/authentication-and-access-tokens.md
+tags:
+- name: Content
+- name: Publishers
+security:
+- x-api-key: []

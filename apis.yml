@@ -1,23 +1,126 @@
 aid: ebsco
+
 name: EBSCO
-description: 'EBSCO is a company surfaced via the API Evangelist harvest backlog (source: tag-qc) and
-  added to the network as a stub for full-pipeline profiling.'
+
+image: https://www.ebsco.com/ebsco-default-og-image.png
+
+description: EBSCO is the leading provider of research databases, e‑journals, magazine subscriptions, e‑books and a discovery service for academic
+  libraries, public libraries, corporations, schools, government and medical institutions. It offers a comprehensive suite of information resources
+  and tools that enable users to search, discover, and access scholarly content across a wide range of subjects and formats, supporting research,
+  education, and professional development worldwide.
+
 url: https://raw.githubusercontent.com/api-evangelist/ebsco/refs/heads/main/apis.yml
+
 x-type: company
+
 x-source: harvest:tag-qc
-x-tier: stub
-x-tier-reason: harvest
+
+x-tier: profiled
+x-tier-reason: enrichment pass 2026-10-14 (modular-v1; was harvest)
+
 specificationVersion: '0.20'
+
 created: '2026-10-14'
+
 modified: '2026-10-14'
+
 tags:
 - Company
-apis: []
+- Research
+- Libraries
+- Education
+- Information
+
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+
 common:
+- type: RateLimits
+  url: rate-limits/ebsco-rate-limits.yml
+- type: Spectral
+  url: rules/ebsco-rules.yml
+- type: JSONLD
+  url: json-ld/ebsco-context.jsonld
+- type: Vocabulary
+  url: vocabulary/ebsco-vocabulary.yml
+- type: DataModel
+  url: data-model/ebsco-data-model.yml
+- type: ChangeLog
+  url: changelog/ebsco-changelog.yml
+- type: Authentication
+  url: authentication/ebsco-authentication.yml
+- type: Conformance
+  url: conformance/ebsco-conformance.yml
+- type: LLMsTxt
+  url: llms/ebsco-llms.txt
+- type: SecurityTxt
+  url: well-known/ebsco-status-security.txt
+- type: WellKnown
+  url: well-known/ebsco-well-known.yml
+- type: Hosts
+  url: hosts/ebsco-hosts.yml
+- type: Vendors
+  url: vendors/ebsco-vendors.yml
+- type: SDKs
+  url: packages/ebsco-packages.yml
+- type: Packages
+  url: packages/ebsco-packages.yml
+- type: TermsOfService
+  url: https://legal.ebsco.com/terms-of-use
+- type: StatusPage
+  url: https://status.ebsco.com/
+- type: PrivacyPolicy
+  url: https://legal.ebsco.com/privacy-policy
+- type: Leadership
+  url: https://about.ebsco.com/about/leadership
+- type: GettingStarted
+  url: https://developer.ebsco.com/ebscohost-ai-exchange/docs/getting-started
+- type: Documentation
+  url: https://developer.ebsco.com/
+- type: GitHubOrganization
+  url: https://github.com/ebsco
+- type: DomainSecurity
+  url: security/ebsco-domain-security.yml
 - type: Website
   url: https://www.ebsco.com
+- type: DeveloperPortal
+  url: https://developer.ebsco.com
+
+apis:
+- name: EBSCOhost API
+  description: API for EBSCOhost services, providing access to search, retrieve, and AI insights for library resources.
+  humanURL: https://developer.ebsco.com/ebscohost-api/docs/overview.md
+  aid: ebsco:ebscohost-api
+- aid: ebsco:ebsco-api
+  name: EBSCO API
+  description: 'EBSCO API as documented publicly: 2 operations. Contract generated from the documentation by API Evangelist (2026-10-14); not
+
+    the provider''s own document.'
+  humanURL: https://developer.ebsco.com/dynamed/reference/get-change-alerts.md
+  baseURL: https://apis.ebsco.com/medsapi-dynamed
+  properties:
+  - type: OpenAPI
+    url: openapi/_ae-authored/ebsco-openapi-generated.yml
+    x-provenance: generated
+  - type: JSONSchema
+    url: json-schema/ebsco-get-content-change-alerts-response-schema.json
+  - type: JSONSchema
+    url: json-schema/ebsco-get-publishers-publisherid-documents-documentid-response-schema.json
+
+x-coverage:
+  state: unreadable
+  reason: no-machine-readable-spec
+  detail: Developer portal provides API docs but no OpenAPI or other machine-readable contract was found.
+  evidence:
+  - url: https://developer.ebsco.com/ebscohost-api/openapi.json
+    status: 404
+  checked: '2026-10-14'
+x-enrichment:
+  date: '2026-10-14'
+  status: enriched
+  artifacts_added: 24
+  pass: modular-v1
+  engine: identity=local,contract=local,surfaces=local,docs=local,regulatory=local

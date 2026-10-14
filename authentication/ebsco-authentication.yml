@@ -1,0 +1,25 @@
+generated: '2026-10-14'
+method: searched
+generator: extract-docs-artifacts.py (local)
+source: https://developer.ebsco.com/ebscohost-api/docs/authentication-and-access-tokens.md
+sources:
+- https://developer.ebsco.com/ebscohost-api/docs/authentication-and-access-tokens.md
+- https://developer.ebsco.com/ebscohost-api/docs/authentication-concepts.md
+- https://developer.ebsco.com/home/page/request-api-key-information.md
+- https://developer.ebsco.com/knowledge-services/docs/holdingsiq-authentication.md
+description: Authentication methods for EBSCO APIs
+schemes:
+- type: oauth2
+  name: EBSCO OAuth
+  evidence: EBSCOhost API Beta uses the OAuth 2.0 **authorization code grant** to give each user, or each guest visitor, their own access token.
+  flows:
+  - authorization_code
+  authorize_url: https://logon.ebsco.zone/api/dispatcher/oauth/authorize
+  how_to_obtain: Register a client app to receive a Client ID and Client Secret.
+- type: apiKey
+  name: x-api-key
+  evidence: 'All requests to HoldingsIQ must contain the following API key header field: **x-api-key** {Unique API key as a string}'
+  location: header
+  header: x-api-key
+  how_to_obtain: Request an API key via the Request API Key Information form.
+docs: https://developer.ebsco.com/ebscohost-api/docs/authentication-and-access-tokens.md

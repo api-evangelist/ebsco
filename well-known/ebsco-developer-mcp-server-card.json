@@ -1,0 +1,1 @@
+{"$schema":"https://static.modelcontextprotocol.io/schemas/v1/server-card.schema.json","name":"com.readme/ebsco-group","version":"1.0.0","title":"EBSCO Developer Network","description":"MCP server for EBSCO Developer Network. Lets AI agents explore this project's API reference and documentation.","remotes":[{"type":"streamable-http","url":"https://developer.ebsco.com/mcp"}]}

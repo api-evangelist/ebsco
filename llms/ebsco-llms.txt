@@ -1,0 +1,754 @@
+# EBSCOhost AI Exchange Documentation
+
+> Documentation for EBSCOhost AI Exchange
+
+## Guides: Getting Started
+- [Overview](https://developer.ebsco.com/ebscohost-ai-exchange/docs/getting-started.md)
+- [How AI Exchange Works](https://developer.ebsco.com/ebscohost-ai-exchange/docs/how-ai-exchange-works.md)
+- [Register an App](https://developer.ebsco.com/ebscohost-ai-exchange/docs/register-an-app.md)
+- [Quick Start](https://developer.ebsco.com/ebscohost-ai-exchange/docs/quick-start.md)
+
+## Guides: BASIC USAGE
+- [Connect your AI Client](https://developer.ebsco.com/ebscohost-ai-exchange/docs/connect-your-ai-client.md)
+  - [Connect your Claude Client](https://developer.ebsco.com/ebscohost-ai-exchange/docs/connect-your-claude-client.md)
+  - [Connect Your ChatGPT Client](https://developer.ebsco.com/ebscohost-ai-exchange/docs/connect-your-chatgpt-client.md)
+
+
+# EBSCOhost API Documentation
+
+> Documentation for EBSCOhost API
+
+## Guides: GETTING STARTED
+- [Overview](https://developer.ebsco.com/ebscohost-api/docs/overview.md)
+- [Registering a Client App](https://developer.ebsco.com/ebscohost-api/docs/registering-a-client-app.md)
+- [Authentication and Access Tokens](https://developer.ebsco.com/ebscohost-api/docs/authentication-and-access-tokens.md)
+- [Environment and Rate Limits](https://developer.ebsco.com/ebscohost-api/docs/environment.md)
+- [Making Your First Request](https://developer.ebsco.com/ebscohost-api/docs/making-your-first-request.md)
+
+## Guides: CONCEPTS
+- [Authentication Concepts for EDS API Developers](https://developer.ebsco.com/ebscohost-api/docs/authentication-concepts.md)
+- [Search](https://developer.ebsco.com/ebscohost-api/docs/search.md)
+- [Retrieve](https://developer.ebsco.com/ebscohost-api/docs/retrieve.md)
+- [AI Insights](https://developer.ebsco.com/ebscohost-api/docs/ai-insights.md)
+- [Citation Discovery](https://developer.ebsco.com/ebscohost-api/docs/citation-discovery.md)
+- [Utilities](https://developer.ebsco.com/ebscohost-api/docs/utilities.md)
+
+## Guides: BASIC USAGE
+- [Searching for Records](https://developer.ebsco.com/ebscohost-api/docs/searching-for-records.md)
+- [Retrieving Record Details and Full Text](https://developer.ebsco.com/ebscohost-api/docs/retrieving-record-details-and-full-text.md)
+- [Retrieving AI Insights](https://developer.ebsco.com/ebscohost-api/docs/retrieving-ai-summaries.md)
+- [Discovering Citation Relationships](https://developer.ebsco.com/ebscohost-api/docs/discovering-citation-relationships.md)
+- [Converting Record Identifiers](https://developer.ebsco.com/ebscohost-api/docs/converting-record-identifiers.md)
+
+## Guides: DEVELOPER RESOURCES
+- [Response and Error Codes](https://developer.ebsco.com/ebscohost-api/docs/response-and-error-codes.md)
+
+## API Reference: EBSCOhost API Beta
+- Search
+  - [Search](https://developer.ebsco.com/ebscohost-api/reference/post-search.md): This operation executes a comprehensive search across all or selected databases within the consumer's profile. The operation supports advanced search capabilities including filters, facets,…
+  - [Retrieve Database Configuration](https://developer.ebsco.com/ebscohost-api/reference/get-config-databases.md): This operation returns the search database configuration for the given opid and language.
+  - [Retrieve Pre-Search Configuration](https://developer.ebsco.com/ebscohost-api/reference/post-options-pre-search-configuration.md): This operation returns the pre-search configuration of Common, Specialized and Custom Limiters for a list of given Short Database names.
+- Retrieve
+  - [Retrieve a Record](https://developer.ebsco.com/ebscohost-api/reference/get-record.md): This operation retrieves a record for a given record id.
+  - [Retrieve HTML Full Text](https://developer.ebsco.com/ebscohost-api/reference/get-html-fulltext.md): This operation returns html full text for given record id.
+  - [Retrieve a URL to PDF Full Text](https://developer.ebsco.com/ebscohost-api/reference/get-pdf-fulltext.md): This operation returns a link to pdf full text for the record id provided.
+- Utilities
+  - [Convert an AN and DB to a Record Identifier](https://developer.ebsco.com/ebscohost-api/reference/post-record-identifiers.md): This operation retrieves a record identifier for a given AN and DB.
+- Citation Discovery
+  - [Retrieve Scholarly Works](https://developer.ebsco.com/ebscohost-api/reference/post-scholarly-graph-works.md): This operation returns entitled and unentitled works for the specified EBSCO Scholarly Graph identifier.
+  - [Retrieve Citation Metrics](https://developer.ebsco.com/ebscohost-api/reference/post-scholarly-graph-cited-by.md): This operation returns cited-by resolutions for a list of record ids and DOIs.
+- AI Insights
+  - [Retrieve AI Insights](https://developer.ebsco.com/ebscohost-api/reference/get-ai-insights.md): This operation returns a summary for the HTML full text or PDF full text document based on record id and opid.
+
+
+# EBSCO Partner Documentation
+
+> Documentation for EBSCO Partner
+
+## Guides: Documentation
+- [Introduction](https://developer.ebsco.com/dynamic-health-partner/docs/introduction.md)
+- [Registering a Client App](https://developer.ebsco.com/dynamic-health-partner/docs/registering-a-client-app.md)
+- [Using the Client Credentials Grant](https://developer.ebsco.com/dynamic-health-partner/docs/using-the-client-credentials-grant.md)
+- [Making Your First Request](https://developer.ebsco.com/dynamic-health-partner/docs/making-your-first-request.md)
+- [Cloning a Code Sample](https://developer.ebsco.com/dynamic-health-partner/docs/cloning-a-code-sample.md)
+
+## Guides: ARTICLE NOTES
+- [Retrieving All Customers](https://developer.ebsco.com/dynamic-health-partner/docs/retrieving-all-customers.md)
+- [Retrieving All Article Notes](https://developer.ebsco.com/dynamic-health-partner/docs/retrieving-all-article-notes.md)
+- [Retrieving an Article Note by ID](https://developer.ebsco.com/dynamic-health-partner/docs/retrieving-article-note-by-id.md)
+
+## Guides: CUSTOM ARTICLES
+- [Retrieving All Custom Articles](https://developer.ebsco.com/dynamic-health-partner/docs/retrieving-all-custom-articles.md)
+- [Retrieving a Custom Article by ID](https://developer.ebsco.com/dynamic-health-partner/docs/retrieving-a-custom-article-by-id.md)
+- [Retrieving All Customers Articles](https://developer.ebsco.com/dynamic-health-partner/docs/retrieving-all-customers-articles.md)
+
+## Guides: CONTENT EXCLUSIONS
+- [Retrieving All Article Exclusions](https://developer.ebsco.com/dynamic-health-partner/docs/retrieving-all-article-exclusions.md)
+- [Retrieving Customers with Excluded Articles](https://developer.ebsco.com/dynamic-health-partner/docs/retrieving-customers-with-excluded-articles.md)
+- [Retrieving Content Set Exclusions](https://developer.ebsco.com/dynamic-health-partner/docs/retrieving-content-set-exclusions.md)
+- [Retrieving Customers and Exclusions](https://developer.ebsco.com/dynamic-health-partner/docs/retrieving-customers-and-exclusions.md)
+
+## Guides: RESOURCES
+- [Response Codes](https://developer.ebsco.com/dynamic-health-partner/docs/response-codes.md)
+
+## API Reference: MedsAPI Dynamic Health EBSCO Partners
+- Authorization
+  - [Get an authorization token](https://developer.ebsco.com/dynamic-health-partner/reference/post-token.md): The authentication endpoint for getting a token, used in all other Dynamic Health APIs.
+- Exclusions
+  - [Get all article exclusions for a given customer](https://developer.ebsco.com/dynamic-health-partner/reference/get-all-article-exclusions-by-customer.md): Get a list of all article exclusions for a given customer by providing that customer's id as a query parameter.
+  - [Get a list of all customers that have article exclusions](https://developer.ebsco.com/dynamic-health-partner/reference/get-list-of-all-customers-with-article-exclusions.md): Return a list of all customers who have article exclusions
+  - [Retrieve excluded content sets for a given customer](https://developer.ebsco.com/dynamic-health-partner/reference/getcontentsetexclusions.md)
+  - [Retrieve list of customers that have any excluded content sets for a given product](https://developer.ebsco.com/dynamic-health-partner/reference/getcustomerswithcontentsetexclusions.md)
+- Custom Articles
+  - [Get all custom articles for a given customer](https://developer.ebsco.com/dynamic-health-partner/reference/get-all-custom-articles-by-customer.md): Get a list of all custom articles for a given customer by providing that customer's id as a query parameter.
+  - [Get a specific custom article for the given customer](https://developer.ebsco.com/dynamic-health-partner/reference/get-a-custom-article-by-id-and-customer-id.md): Get a specific custom article for a given customer by providing the custom article id in the path and the customer's id as a query parameter.
+  - [Get all customers that have custom articles](https://developer.ebsco.com/dynamic-health-partner/reference/get-list-of-all-customers-with-custom-articles.md): Return a list of all customers who have custom articles
+- Article Notes
+  - [Get all article notes for a given customer](https://developer.ebsco.com/dynamic-health-partner/reference/get-all-article-notes-by-customer.md): Get a list of all article notes for a given customer by providing that customer's id as a query parameter.
+  - [Get all customers that have article notes](https://developer.ebsco.com/dynamic-health-partner/reference/get-list-of-all-customers-with-article-notes.md): Return a list of all customers who have article notes
+
+
+# EBSCOhost Entitlement API Documentation
+
+> Documentation for EBSCOhost Entitlement API
+
+## Guides: GETTING STARTED
+- [Overview](https://developer.ebsco.com/entitlement-api/docs/overview.md)
+- [Register a Client App](https://developer.ebsco.com/entitlement-api/docs/register-a-client-app.md)
+- [Making Your First Request](https://developer.ebsco.com/entitlement-api/docs/making-your-first-request.md)
+
+## Guides: BASIC USAGE
+- [Use the Client Credentials Grant](https://developer.ebsco.com/entitlement-api/docs/use-the-client-credentials-grant.md)
+- [Environment](https://developer.ebsco.com/entitlement-api/docs/environment.md)
+- [Rate Limits](https://developer.ebsco.com/entitlement-api/docs/rate-limits.md)
+- [Cloning a Code Sample](https://developer.ebsco.com/entitlement-api/docs/cloning-a-code-sample.md)
+
+## Guides: DEVELOPER RESOURCES
+- [Response Codes](https://developer.ebsco.com/entitlement-api/docs/response-and-error-codes.md)
+
+## API Reference: EBSCOhost Entitlement API
+- Full Text Finder Resources
+  - [Get Full Text Links](https://developer.ebsco.com/entitlement-api/reference/openurl.md): This operation allows you to use a DOI, or Digital Object Identifier, to get access to full text links.  The operation can accept a DOI in either openurl 1.0 or 1.1 format.
+  - [Get Full Text Links V3](https://developer.ebsco.com/entitlement-api/reference/openurlv3.md): This operation allows you to use a DOI, or Digital Object Identifier, to get access to full text links.  The operation can accept a DOI in either openurl 1.0 or 1.1 format.
+
+## Changelog
+- [EBSCOhost Entitlement API 11.11.2024](https://developer.ebsco.com/entitlement-api/changelog/ebscohost-entitlement-api-11112024.md)
+- [EBSCOhost Entitlement API 9.16.2020](https://developer.ebsco.com/entitlement-api/changelog/welcome-to-ebsco-5.md)
+
+
+# BIBFRAME Lite Documentation
+
+> Documentation for BIBFRAME Lite
+
+## Guides: Documentation
+- [Introduction](https://developer.ebsco.com/bibframe-lite/docs/introduction.md)
+- [Core Concepts and Purpose](https://developer.ebsco.com/bibframe-lite/docs/core-concepts-and-purpose.md)
+- [Data Modeling](https://developer.ebsco.com/bibframe-lite/docs/data-modeling.md)
+- [Using BIBFRAME Lite](https://developer.ebsco.com/bibframe-lite/docs/using-bibframe-lite.md)
+- [Tools and Libraries](https://developer.ebsco.com/bibframe-lite/docs/tools-and-libraries.md)
+- [Integrations](https://developer.ebsco.com/bibframe-lite/docs/integrations.md)
+- [Participation and Collaboration](https://developer.ebsco.com/bibframe-lite/docs/participation-and-collaboration.md)
+
+## Changelog
+- [Welcome to ebsco-7](https://developer.ebsco.com/bibframe-lite/changelog/welcome-to-ebsco-7.md)
+
+
+# Bibliograph API Documentation
+
+> Documentation for Bibliograph API
+
+## Guides: GETTING STARTED
+- [Introduction](https://developer.ebsco.com/bibliograph/docs/introduction.md)
+- [Making Your First Request](https://developer.ebsco.com/bibliograph/docs/making-your-first-request.md)
+
+## Guides: BASIC USAGE
+- [Retrieving Customer Information](https://developer.ebsco.com/bibliograph/docs/retrieving-customer-information.md)
+- [Retrieving Data Resource Information](https://developer.ebsco.com/bibliograph/docs/retrieving-data-resource-information.md)
+
+## Guides: EXTENDED TOPICS
+- [Creating a List](https://developer.ebsco.com/bibliograph/docs/creating-a-list.md)
+
+## Guides: DEVELOPER RESOURCES
+- [Response and Error Codes](https://developer.ebsco.com/bibliograph/docs/response-and-error-codes.md)
+- [Sample Applications](https://developer.ebsco.com/bibliograph/docs/sample-applications.md)
+- [FAQs](https://developer.ebsco.com/bibliograph/docs/faqs.md)
+
+## API Reference: EBSCO BiblioGraph API
+- Customer and Data Resource Endpoints
+  - [Get Customer Information](https://developer.ebsco.com/bibliograph/reference/get_system-json.md): This operation returns system information about the customer.
+  - [Get Data Resource Information](https://developer.ebsco.com/bibliograph/reference/get_resource-id-json.md): This operation returns data resouce information for the specified resource id.  It returns the information in json format.
+
+
+# Getting Started Documentation
+
+> Documentation for Getting Started
+
+## Guides: GeTTING STARTED
+- [Introduction](https://developer.ebsco.com/home/docs/introduction.md)
+- [Registration and Log In](https://developer.ebsco.com/home/docs/registration-and-credentials.md)
+- [Request Application Credentials](https://developer.ebsco.com/home/docs/request-application-credentials.md)
+- [Available APIs and Requirements](https://developer.ebsco.com/home/docs/available-apis-and-requirements.md)
+- [EIS Shared Responsibility Model](https://developer.ebsco.com/home/docs/eis-shared-responsibility-model.md)
+
+## Pages
+- [Add a New App](https://developer.ebsco.com/home/page/add-a-new-app.md)
+- [API Reference](https://developer.ebsco.com/home/page/api-reference.md)
+- [ Knowledge Services](https://developer.ebsco.com/home/page/knowledge-services.md)
+- [ Medical Point of Care](https://developer.ebsco.com/home/page/medical-point-of-care.md)
+- [Mosaic](https://developer.ebsco.com/home/page/mosaic.md)
+- [My Applications](https://developer.ebsco.com/home/page/my-applications.md)
+- [Request API Key Information](https://developer.ebsco.com/home/page/request-api-key-information.md)
+- [ Search & Discovery](https://developer.ebsco.com/home/page/search-discovery.md)
+
+
+# Knowledge Services Documentation
+
+> Documentation for Knowledge Services
+
+## Guides: HOLDINGSIQ
+- [Overview](https://developer.ebsco.com/knowledge-services/docs/holdingsiq-overview.md)
+- [Environment and Rate Limits](https://developer.ebsco.com/knowledge-services/docs/holdingsiq-environment.md)
+- [Authentication](https://developer.ebsco.com/knowledge-services/docs/holdingsiq-authentication.md)
+- [Making Your First Request](https://developer.ebsco.com/knowledge-services/docs/making-your-first-request.md)
+- [Cloning a Code Sample](https://developer.ebsco.com/knowledge-services/docs/holdingsiq-clone-a-code-sample.md)
+- [Using Search Types](https://developer.ebsco.com/knowledge-services/docs/holdingsiq-using-search-types.md)
+- [Downloading Holdings Data](https://developer.ebsco.com/knowledge-services/docs/holdingsiq-downloading-holdings.md)
+
+## Guides: PUBLICATIONIQ
+- [Overview](https://developer.ebsco.com/knowledge-services/docs/publicationiq-overview.md)
+- [Environment](https://developer.ebsco.com/knowledge-services/docs/publicationiq-environment.md)
+- [Making Your First Request](https://developer.ebsco.com/knowledge-services/docs/making-your-first-request-1.md)
+- [Authentication](https://developer.ebsco.com/knowledge-services/docs/publicationiq-authentication.md)
+- [Searching for Publications](https://developer.ebsco.com/knowledge-services/docs/publicationiq-search-for-publications.md)
+- [Browsing by Alpha Menu](https://developer.ebsco.com/knowledge-services/docs/publicationiq-alpha-menu.md)
+- [Browsing By Database](https://developer.ebsco.com/knowledge-services/docs/publicationiq-database.md)
+
+## Guides: LINKIQ
+- [Overview](https://developer.ebsco.com/knowledge-services/docs/linkiq-overview.md)
+- [Environment and Rate Limits](https://developer.ebsco.com/knowledge-services/docs/linkiq-environment.md)
+- [Authentication](https://developer.ebsco.com/knowledge-services/docs/linkiq-authentication.md)
+- [Making Your First Request](https://developer.ebsco.com/knowledge-services/docs/making-your-first-request-2.md)
+
+## Guides: RESources
+- [Response and Error Codes](https://developer.ebsco.com/knowledge-services/docs/response-and-error-codes.md)
+
+## API Reference: EBSCO HoldingsIQ
+- Vendor Resources
+  - [Get Vendors](https://developer.ebsco.com/knowledge-services/reference/get_custid-vendors.md): This operation allows you to search EPKB by vendor.  It returns a list of vendors that includes customer context and the total number of results.  When searching for vendors without a search…
+  - [Get Vendor Details](https://developer.ebsco.com/knowledge-services/reference/get_custid-vendors-vendorid.md): This operation allows you to retrieve vendor details from EPKB for a specific vendor ID.      **Please Note:**  You will need an API key to gain access to the API through our interactive…
+  - [Update Vendor Proxy and Token Values](https://developer.ebsco.com/knowledge-services/reference/put_custid-vendors-vendorid.md): This operation allows you to update vendor proxy and token values for a specific vendor ID.  If a vendor does not have a token set up, the JSON payload should have an empty token with a proxy value.…
+  - [Get List of Packages for a Vendor](https://developer.ebsco.com/knowledge-services/reference/get_custid-vendors-vendorid-packages.md): This operation allows you to retrieve a list of packages from EPKB for a vendor including customer context.      **Please Note:**  You will need an API key to gain access to the API through our…
+  - [Search Packages by Vendor](https://developer.ebsco.com/knowledge-services/reference/get_v2-custid-vendors-vendorid-lists.md): This operation allows you to retrieve a list of packages from EPKB for a vendor including customer context.      **Please Note:**  You will need an API key to gain access to the API through our…
+- Package Resources
+  - [Create Custom Packages](https://developer.ebsco.com/knowledge-services/reference/post_custid-vendors-vendorid-packages.md): This operation allows you to create custom packages.      **Please Note:**  You will need an API key to gain access to the API through our interactive documentation. If you require an API key, please…
+  - [Get List of Packages](https://developer.ebsco.com/knowledge-services/reference/get_custid-packages.md): This operation allows you to search for packages and returns a list of packages from EPKB.  The list is not limited to a single vendor ID.  The response will reflect the context of the EBSCO customer…
+  - [Get Package Details](https://developer.ebsco.com/knowledge-services/reference/get_custid-vendors-vendorid-packages-packageid.md): This operation allows you to retrieve information for a specific package.  It returns details in the context of a customer.      **Please Note:**  You will need an API key to gain access to the API…
+  - [Update a Package](https://developer.ebsco.com/knowledge-services/reference/put_custid-vendors-vendorid-packages-packageid.md): This operation allows you to update selection and customizations to a package in a customer account.  A package with inherited set to true inherits its proxy from the root proxy. So, a JSON payload…
+  - [Get Package Details](https://developer.ebsco.com/knowledge-services/reference/get_v2-custid-lists-listid.md): This operation allows you to retrieve information for a specific package.  It returns details in the context of a customer.      **Please Note:**  You will need an API key to gain access to the API…
+  - [Update a Package](https://developer.ebsco.com/knowledge-services/reference/put_v2-custid-lists-listid.md): This operation allows you to update selection and customizations to a package in a customer account.  A package with inherited set to true inherits its proxy from the root proxy. So, a JSON payload…
+  - [Get Titles that are Part of a Package](https://developer.ebsco.com/knowledge-services/reference/get_custid-vendors-vendorid-packages-packageid-titles.md): This operation allows you to search and retrieve a list of titles from EPKB that are part of a specified package.  The response will reflect the context of the EBSCO customer ID included in the…
+  - [Get Package-Title Details](https://developer.ebsco.com/knowledge-services/reference/get_custid-vendors-vendorid-packages-packageid-titles-kbid.md): This operation allows you to retrieve details for a particular package-title from EPKB.      **Please Note:**  You will need an API key to gain access to the API through our interactive…
+  - [Update a Title in a Package](https://developer.ebsco.com/knowledge-services/reference/put_custid-vendors-vendorid-packages-packageid-titles-kbid.md): This operation allows you to update selection status, proxy value or coverage customizations for a title within a package in a customer EPKB account.  A title with **inherited** set to true inherits…
+  - [Get Related Orders for a Package](https://developer.ebsco.com/knowledge-services/reference/getordersbypackageusingget.md): This operation retrieves a list of GOBI eBook and EBSCO Subscription Services (ESS) E-Journal and Package Subscription orders associated with a particular package for a specific customer.    **Please…
+  - [Get Order Event History for a Package](https://developer.ebsco.com/knowledge-services/reference/getpackageorderhistoryusingget.md): This operation retrieves Auto-Population events related to GOBI eBook or EBSCO Subscription Services (ESS) E-Journal and Package Subscription orders for a specific package. Auto-Population…
+  - [Advanced Package Search](https://developer.ebsco.com/knowledge-services/reference/get_v2-custid-lists.md): This operation allows you to search for packages and returns a list of packages from EPKB.  The list is not limited to a single vendor ID.  The response will reflect the context of the EBSCO customer…
+- Title Resources
+  - [Create Custom Titles](https://developer.ebsco.com/knowledge-services/reference/post_custid-vendors-vendorid-packages-packageid-titles.md): This operation allows you to create custom titles.  The titleName and pubType elements are required in the custom title payload.  If your JSON POST payload contains multiple coverage dates, the dates…
+  - [Get List of Titles Regardless of Package](https://developer.ebsco.com/knowledge-services/reference/get_custid-titles.md): This operation allows you to search and retrieve a list of titles from EPKB regardless of the package(s) that the titles are a part of.  The response will reflect the context of the EBSCO customer ID…
+  - [Get List of Titles Regardless of Package](https://developer.ebsco.com/knowledge-services/reference/get_v2-custid-titles.md): This operation allows you to search and retrieve a list of titles from EPKB regardless of the package(s) that the titles are a part of.  The response will reflect the context of the EBSCO customer ID…
+  - [Get Title Details Regardless of Package](https://developer.ebsco.com/knowledge-services/reference/get_custid-titles-kbid.md): This operation allows you to retrieve details for a particular title from EPKB regardless of the package that it is a part of.      **Please Note:**  You will need an API key to gain access to the…
+  - [Get Related Orders for a Title](https://developer.ebsco.com/knowledge-services/reference/get_v1-custid-packages-packageid-titles-kbid-orders.md): This operation retrieves a list of GOBI eBook and EBSCO Subscription Services (ESS) E-Journal and Package Subscription orders associated with a particular package-title for a specific customer.…
+  - [Get Order Event History for a Title](https://developer.ebsco.com/knowledge-services/reference/get_v1-custid-packages-packageid-titles-kbid-events.md): This operation retrieves Auto-Population events related to GOBI eBook or EBSCO Subscription Services (ESS) E-Journal and Package Subscription orders for a specific package-title. Auto-Population…
+  - [Get Title Relationships for a KBID](https://developer.ebsco.com/knowledge-services/reference/get-title-relationships.md): This operation retrieves the title relationships for a given title identified via kbid. Currently, it returns the first degree parents, spouse, siblings, and children of the given title. Parameters…
+  - [Get Title Details Regardless of Package](https://developer.ebsco.com/knowledge-services/reference/gettitledetailsregardlessofpackagev2usingget.md): This operation allows you to retrieve details for a particular title from EPKB regardless of the package that it is a part of.  The response will reflect the context of the EBSCO customer ID included…
+  - [Search Titles Within a List](https://developer.ebsco.com/knowledge-services/reference/get-v2-listid-titles.md): This operation allows you to perform an advanced search on titles within a list by search term with various filtering options and search strategies.    **Please Note:**  You will need an API key to…
+  - [Get Title Details by Package](https://developer.ebsco.com/knowledge-services/reference/gettitledetailsbypackagev2usingget.md): This operation allows you to retrieve details for a particular title within a specified list from EPKB.  The response will reflect the context of the EBSCO customer ID included in the request.…
+  - [Update a Title](https://developer.ebsco.com/knowledge-services/reference/updatetitlev2usingput.md): This operation allows you to update title details for a unique listid/kbid pair.
+- Holdings Resources
+  - [Download Holdings](https://developer.ebsco.com/knowledge-services/reference/get_custid-holdings.md): This operation allows you to download customer holdings in KBART2 (JSON) format.  Before using this resource, you need to perform a Holdings Resource POST to populate holdings data to a staging area.…
+  - [Stage Holdings](https://developer.ebsco.com/knowledge-services/reference/post_custid-holdings.md): This operation populates holdings data to a staging area.  You must perform this operation before using the GET holdings resources.  Customer holdings will be refreshed each time a POST is complete.…
+  - [Get Snapshot Status](https://developer.ebsco.com/knowledge-services/reference/get_custid-holdings-status.md): This operation allows you to retrieve the status of a holdings snapshot.  The response reveals if the holdings snapshot is in progress, completed, not staged (none) or has failed.  The status enables…
+  - [Get Exports](https://developer.ebsco.com/knowledge-services/reference/getcustidexports.md): This endpoint allows customers to retrieve details about all export requests of their holdings, including an array of objects that represent metadata about the single export. Parameters include a…
+  - [Create Export Request](https://developer.ebsco.com/knowledge-services/reference/postcustidexports.md): This operation enables customers to request an export file of their holdings in one of four formats: "COST", "HoldingsEvent", "KBART2" or "STANDARD". Export files will be generated with the most…
+  - [Get Export Export Id](https://developer.ebsco.com/knowledge-services/reference/getv0custidcustidexportidexportid.md): This endpoint allows customers to retrieve details about a specific export request of their holdings, including an array of objects that represent metadata about the single export. Parameters include…
+  - [Delete Export by Export Id](https://developer.ebsco.com/knowledge-services/reference/deletev0custidcustidexportidexportid.md): This operation allows you to delete a previously created holdings export request by the export ID value. When an export is deleted via this method, the export request record and the file containing…
+- Label and Proxy Resources
+  - [Get Labels and Root Proxy](https://developer.ebsco.com/knowledge-services/reference/get_custid.md): This operation allows you to retrieve the list of all custom field labels and the root proxy.    **Please Note:**  The last forward slash in the url for this resource is only needed when using the…
+  - [Create and Label Custom Fields](https://developer.ebsco.com/knowledge-services/reference/put_custid.md): This operation allows you to create and label up to five custom fields for your Title Details. Specify the field label ID, Display Label Name and indicate whether you’d like the information to…
+  - [Get Customer Proxies](https://developer.ebsco.com/knowledge-services/reference/get_custid-proxies.md): This operation allows you to retrieve the list of all available customer proxies.    **Please Note:**  You will need an API key to gain access to the API through our interactive documentation. If you…
+- Subject Resource
+  - [Get Available Subjects By Schema Id](https://developer.ebsco.com/knowledge-services/reference/get_v1-custid-subjects-schemaid.md): This operation retrieves all available subjects within a specified subject schema. If 0 is used for the schema id parameter, subjects for all subject schemas will be returned. In the response, the…
+- Category Resources
+  - [Get Package Categories](https://developer.ebsco.com/knowledge-services/reference/post-custid-categories.md): This operation allows the retrieval of existing package categories for a customer. To retrieve all categories for a customer, send an empty array for the categoryIds field. To retrieve specific…
+  - [Create Package Category](https://developer.ebsco.com/knowledge-services/reference/post-custid-category.md): This operation allows the creation of a package category. Only one category can be created per call. It allows both the basic category information to be set and for assignments to be made. The…
+  - [Update a Package Category](https://developer.ebsco.com/knowledge-services/reference/put-custid-categoy-categoyid.md): This operation allows you to edit an existing package category. Only one category can be edited per call. The category name and rank can be changed.  A parent category can be changed or…
+  - [Delete Categories](https://developer.ebsco.com/knowledge-services/reference/delete-custid-deletecategories.md): This operation allows you to remove package categories. At least one or more category ids must be included in the request.  An empty array will result in an error. The delete includes the removal of…
+
+## API Reference: EBSCO PublicationIQ
+- Alpha Browser Resource
+  - [Get Alpha Browser Menu](https://developer.ebsco.com/knowledge-services/reference/getalphabrowsermenuusingget.md): This resource allows you to retrieve an Alpha Browser menu by locale ID and resource type.  Access to PublicationIQ requires a Publication Finder customer profile.  A profile password is optional.…
+  - [Get Alpha Browser Menu](https://developer.ebsco.com/knowledge-services/reference/get-pf-v1-pfaccount-profile-alphabrowser-menu-localeid.md): This resource allows you to retrieve an Alpha Browser menu by locale ID and resource type.  Access to PublicationIQ requires a Publication Finder customer profile.  A profile password is optional.…
+- Package Resources
+  - [Get all Packages](https://developer.ebsco.com/knowledge-services/reference/findallpackagesusingget.md): This resource allows you to retrieve a list of all packages from EPKB limited to a single customer ID. The response will reflect the context of the EBSCO customer ID included in the request.  Access…
+  - [Get Packages by Package Name](https://developer.ebsco.com/knowledge-services/reference/findpackagesbynameusingget.md): This resource allows you to search for packages and returns a list of packages from EPKB. The list is limited to a single customer ID. The response will reflect the context of the EBSCO customer ID…
+  - [Get Package by package ID](https://developer.ebsco.com/knowledge-services/reference/getpackageusingget.md): This resource allows you to retrieve a package by package ID.  Access to PublicationIQ requires a Publication Finder customer profile.  A profile password is optional.  If a password is supplied, it…
+  - [Get Packages by Package Name](https://developer.ebsco.com/knowledge-services/reference/get-v1-pfaccount-packages.md): This resource allows you to search for packages and returns a list of packages from EPKB. The list is limited to a single customer ID. The response will reflect the context of the EBSCO customer ID…
+- Title Resources
+  - [Get Publication by Title ID](https://developer.ebsco.com/knowledge-services/reference/getpublicationusingget.md): This resource allows you to retrieve a publication by title ID.  Access to PublicationIQ requires a Publication Finder customer profile.  A profile password is optional.  If a password is supplied,…
+  - [Deprecated - Get Publications by Specified Title Attributes](https://developer.ebsco.com/knowledge-services/reference/findpublicationsusingget.md): This resource has been deprecated in favor of /pf/v1/pfaccount/{profile}/publications.  This resource allows you to search for publications and returns a list of publications.  The list is limited to…
+  - [Retrieve Singular Title Details for a Customer](https://developer.ebsco.com/knowledge-services/reference/get-pf-v1-pfaccount-profile-title-kbid.md): This operation allows you to search with an individual title and returns details associated with the individual title. The title is limited to a single customer ID. The response will reflect the…
+  - [Get ILS Data by VendorId, PackageId (List Id) and TitleId](https://developer.ebsco.com/knowledge-services/reference/get-pf-v1-pfaccount-profile-vendor-vendorid-package-packageid-title-kbid-licenseterms.md): This operation allows you to get ILS Data by VendorId, PackageId (List Id) and TitleId.
+  - [Returns publications by specified title attribute](https://developer.ebsco.com/knowledge-services/reference/get-pf-v1-pfaccount-profile-publications.md): This operation allows you to search for publications and returns a list of publications. The list is limited to a single customer ID. The response will reflect the context of the EBSCO customer ID…
+
+## API Reference: EBSCO LinkIQ
+- Full Text Finder Resource
+  - [Get Full Text Finder Links](https://developer.ebsco.com/knowledge-services/reference/getftflinks_1.md): This operation allows you to resolve full text links based on an open url.    **Please Note:** Parameters provided below are a sampling of OpenURL 0.1 keys that can be used when trying this service.…
+
+## Pages
+- [APIs and Requirements](https://developer.ebsco.com/knowledge-services/page/apis-and-requirements.md)
+
+## Changelog
+- [HoldingsIQ 8.18.2025](https://developer.ebsco.com/knowledge-services/changelog/holdingsiq-8182025.md)
+- [HoldingsIQ 12.3.2024](https://developer.ebsco.com/knowledge-services/changelog/holdingsiq-1232024.md)
+- [PublicationIQ 9.19.2024](https://developer.ebsco.com/knowledge-services/changelog/publicationiq-9192024.md)
+- [PublicationIQ 6.21.2024](https://developer.ebsco.com/knowledge-services/changelog/publicationiq-6212024.md)
+- [HoldingsIQ 4.22.2024](https://developer.ebsco.com/knowledge-services/changelog/holdingsiq-4222024.md)
+- [HoldingsIQ 3.27.2024](https://developer.ebsco.com/knowledge-services/changelog/holdingsiq-3272024.md)
+- [HoldingsIQ 3.12.2024](https://developer.ebsco.com/knowledge-services/changelog/holdingsiq-3122024.md)
+- [PublicationIQ 3.8.2024](https://developer.ebsco.com/knowledge-services/changelog/publicationiq-382024.md)
+- [HoldingsIQ 2.26.2024](https://developer.ebsco.com/knowledge-services/changelog/holdingsiq-2262024.md)
+- [PublicationIQ 11.15.2023](https://developer.ebsco.com/knowledge-services/changelog/publicationiq-11152023.md)
+
+
+# EDS API Documentation
+
+> Documentation for EDS API
+
+## Guides: Getting Started
+- [Introduction](https://developer.ebsco.com/eds-api/docs/introduction.md)
+- [Authentication](https://developer.ebsco.com/eds-api/docs/authentication-1.md)
+  - [API Keys](https://developer.ebsco.com/eds-api/docs/api-keys.md)
+- [Making Your First Request](https://developer.ebsco.com/eds-api/docs/making-your-first-request.md)
+
+## Guides: Concepts
+- [Request Formats](https://developer.ebsco.com/eds-api/docs/request-formats.md)
+- [Managing Sessions](https://developer.ebsco.com/eds-api/docs/managing-sessions.md)
+- [Obtaining Option Information](https://developer.ebsco.com/eds-api/docs/obtaining-option-information.md)
+- [Paging through Results](https://developer.ebsco.com/eds-api/docs/paging-through-results.md)
+- [Configuring Default API Settings in EBSCOadmin](https://developer.ebsco.com/eds-api/docs/configuring-default-api-settings-in-ebscoadmin.md)
+
+## Guides: Basic Usage
+- [Performing a Search](https://developer.ebsco.com/eds-api/docs/performing-a-search.md)
+  - [Searching with Limiters](https://developer.ebsco.com/eds-api/docs/searching-with-limiters.md)
+  - [Searching with Expanders](https://developer.ebsco.com/eds-api/docs/searching-with-expanders.md)
+  - [Using Min and Max Date Range to Filter Results](https://developer.ebsco.com/eds-api/docs/using-min-and-max-date-range-to-filter-results.md)
+  - [Retrieving an Exact Match Publication](https://developer.ebsco.com/eds-api/docs/retrieving-a-publication.md)
+- [Working with Full Text](https://developer.ebsco.com/eds-api/docs/working-with-full-text.md)
+- [Exporting a Formatted Record](https://developer.ebsco.com/eds-api/docs/exporting-a-formatted-record.md)
+- [Retrieving Record Citations](https://developer.ebsco.com/eds-api/docs/retrieving-record-citations.md)
+
+## Guides: Extended Topics
+- [Using Autosuggested Terms](https://developer.ebsco.com/eds-api/docs/using-autosuggested-terms.md)
+- [Using Autocorrected Terms](https://developer.ebsco.com/eds-api/docs/using-autocorrected-terms.md)
+- [Incorporating Autocomplete](https://developer.ebsco.com/eds-api/docs/incorporating-autocomplete.md)
+  - [Autocomplete](https://developer.ebsco.com/eds-api/docs/autocomplete.md)
+- [Research Starters](https://developer.ebsco.com/eds-api/docs/research-starters.md)
+  - [Searching with Research Starters](https://developer.ebsco.com/eds-api/docs/searching-with-research-starters.md)
+- [Publication Type Icons](https://developer.ebsco.com/eds-api/docs/publication-type-icons.md)
+- [Image Quick View](https://developer.ebsco.com/eds-api/docs/image-quick-view.md)
+- [Publication Finder](https://developer.ebsco.com/eds-api/docs/publication-finder.md)
+  - [Searching for Publications](https://developer.ebsco.com/eds-api/docs/searching-for-publications.md)
+  - [Obtaining Search Options](https://developer.ebsco.com/eds-api/docs/obtaining-search-options.md)
+  - [Retrieving a Publication by ID](https://developer.ebsco.com/eds-api/docs/retrieving-a-publication-by-id.md)
+- [Bot Detection and Blocking](https://developer.ebsco.com/eds-api/docs/bot-detection-and-blocking.md)
+- [Rate Limits and Throttling](https://developer.ebsco.com/eds-api/docs/rate-limits-and-throttling.md)
+
+## Guides: Developer Resources
+- [Designing Your Search Screen](https://developer.ebsco.com/eds-api/docs/designing-your-search-screen.md)
+- [Improving Application Speed](https://developer.ebsco.com/eds-api/docs/improving-application-speed.md)
+- [Using HTTP Compression](https://developer.ebsco.com/eds-api/docs/utilizing-http-compression.md)
+- [Response and Error Codes](https://developer.ebsco.com/eds-api/docs/response-and-error-codes.md)
+- [Sample Applications](https://developer.ebsco.com/eds-api/docs/sample-applications.md)
+  - [Python](https://developer.ebsco.com/eds-api/docs/python.md)
+  - [PHP](https://developer.ebsco.com/eds-api/docs/php.md)
+  - [Java](https://developer.ebsco.com/eds-api/docs/java.md)
+  - [VuFind](https://developer.ebsco.com/eds-api/docs/vufind.md)
+  - [Blacklight](https://developer.ebsco.com/eds-api/docs/blacklight.md)
+  - [Koha](https://developer.ebsco.com/eds-api/docs/koha.md)
+  - [Drupal](https://developer.ebsco.com/eds-api/docs/drupal.md)
+  - [Learning Management Systems](https://developer.ebsco.com/eds-api/docs/learning-management-systems.md)
+  - [Mobile](https://developer.ebsco.com/eds-api/docs/mobile.md)
+- [FAQs](https://developer.ebsco.com/eds-api/docs/faqs.md)
+
+## API Reference: EDS API
+- Authentication Resources
+  - [Generate Authentication Token User ID](https://developer.ebsco.com/eds-api/reference/authentication-uidauth.md): This operation generates an authentication token that will be required for all other calls to the API.
+  - [Generate Authentication Token IP](https://developer.ebsco.com/eds-api/reference/authentication-ipauth.md): This operation generates an authentication token that will be required for all other calls to the API.
+- Session Resources
+  - [Create a Session](https://developer.ebsco.com/eds-api/reference/sessions-createsession-get.md): This operation is used to generate a session ID that will be used in subsequent API calls for the session.
+  - [Create a Session](https://developer.ebsco.com/eds-api/reference/sessions-createsession-post.md): This operation is used to generate a session ID that will be used in subsequent API calls for the session.
+  - [End a Session](https://developer.ebsco.com/eds-api/reference/sessions-endsession-get.md): This operation invalidates the session token. End session should be called when you know a user logs out.
+  - [End a Session](https://developer.ebsco.com/eds-api/reference/sessions-endsession-post.md): This operation is used to invalidate the session token. End session should be called when you know a user logs out.
+- Search Resources
+  - [Retrieve Option Information](https://developer.ebsco.com/eds-api/reference/edsapi-info-get.md): This operation returns the common EDS limiters, sort options, search tags, expanders and search modes available for the associated profile.
+  - [Retrieve Option Information](https://developer.ebsco.com/eds-api/reference/edsapi-info-post.md): This operation returns the common EDS limiters, sort options, search tags, expanders and search modes available for the associated profile.
+  - [Search](https://developer.ebsco.com/eds-api/reference/edsapi-search-get.md): This operation is used to perform searches against the databases in the profile. It returns a results list along with the relevant facets and abstracts.  Note: The characters : , ( and ) are used as…
+  - [Search](https://developer.ebsco.com/eds-api/reference/edsapi-search-post.md): This operation is used to perform searches against the databases in the profile. It returns a results list along with the relevant facets and abstracts.  Note: The characters : , ( and ) are used as…
+  - [Retrieve](https://developer.ebsco.com/eds-api/reference/edsapi-retrieve-get.md): The operation is used to retrieve a single record. It returns the complete record along with its abstract and full text.
+  - [Retrieve](https://developer.ebsco.com/eds-api/reference/edsapi-retrieve-post.md): This operation is used to retrieve a single record. It returns the complete record along with its abstract and full text.
+  - [Retrieve Record Citations](https://developer.ebsco.com/eds-api/reference/edsapi-citationstyles.md): This operation retrieves a record citation(s) by specifying an AN, database, and a list of formats. You can find the AN and DBID of a record in the header of the Search or Retrieve response message.
+  - [Export Record Citation by Format](https://developer.ebsco.com/eds-api/reference/edsapi-exportformats.md): This operation retrieves a single record citation by specifying an AN, database ID (DBID) and format. You can find the AN and DBID of a record in the header of the Search or Retrieve response…
+- Publication Resources
+  - [Retrieve Search Criteria](https://developer.ebsco.com/eds-api/reference/publication-searchcriteria-get.md): This operation obtains the search options available for publication searching within a given profile. The response contains the sort options, search fields, and limiters.
+  - [Retrieve Search Criteria](https://developer.ebsco.com/eds-api/reference/publication-searchcriteria-post.md): This operation obtains the search options available for publication searching within a given profile. The response contains the sort options, search fields, and limiters.
+  - [Search](https://developer.ebsco.com/eds-api/reference/publication-search-get.md): This operation is used to perform searches for publications.
+  - [Search](https://developer.ebsco.com/eds-api/reference/publication-search-post.md): This operation is used to perform searches for publications.
+  - [Retrieve](https://developer.ebsco.com/eds-api/reference/publication-retrieve-get.md): This operation retrieves a single publication record by specifying a publication ID. The publication ID can be found in the header section of the publication Search response message.
+  - [Retrieve](https://developer.ebsco.com/eds-api/reference/publication-retrieve-post.md): This operation retrieves a single publication record by specifying a publication ID. The publication ID can be found in the header section of the publication Search response message.
+
+## Recipes
+- [Basic search](https://developer.ebsco.com/eds-api/recipes/basic-search.md)
+
+
+# DynaMed Documentation
+
+> Documentation for DynaMed
+
+## Guides: Overview
+- [Introduction](https://developer.ebsco.com/dynamed/docs/introduction.md)
+- [Registering a Client App](https://developer.ebsco.com/dynamed/docs/registering-a-client-app.md)
+- [Using the Client Credentials Grant](https://developer.ebsco.com/dynamed/docs/using-the-client-credentials-grant.md)
+- [Making Your First Request](https://developer.ebsco.com/dynamed/docs/making-your-first-request.md)
+- [Cloning a Code Sample](https://developer.ebsco.com/dynamed/docs/cloning-a-code-sample.md)
+- [Media Responses](https://developer.ebsco.com/dynamed/docs/media-responses.md)
+- [Application Considerations](https://developer.ebsco.com/dynamed/docs/version-1-and-2-differences.md)
+
+## Guides: Dyna AI
+- [Query Dyna Content POST](https://developer.ebsco.com/dynamed/docs/questioning-dyna-content-post.md)
+- [Retrieving Dyna Initial Config](https://developer.ebsco.com/dynamed/docs/retrieving-dyna-initial-config.md)
+- [ Retrieving Dyna Conversations History GET](https://developer.ebsco.com/dynamed/docs/retrieving-dyna-conversations-history-get.md)
+- [Removing Dyna Conversations History DELETE](https://developer.ebsco.com/dynamed/docs/removing-dyna-conversations-history-delete.md)
+- [Retrieving Dyna Conversation History by ID GET](https://developer.ebsco.com/dynamed/docs/retrieving-dyna-conversation-history-by-id-get.md)
+- [Removing Dyna Conversation History by ID DELETE](https://developer.ebsco.com/dynamed/docs/removing-dyna-conversation-history-by-id-delete.md)
+
+## Guides: SEARCH
+- [Searching Content POST V2](https://developer.ebsco.com/dynamed/docs/searching-content-using-post-v2.md)
+- [Searching for Suggestions GET V2](https://developer.ebsco.com/dynamed/docs/searching-for-suggestions-get-v2.md)
+- [Searching Content POST V1](https://developer.ebsco.com/dynamed/docs/searching-content-using-post-deprecated.md): This endpoint is deprecated.
+- [Searching Content GET V1](https://developer.ebsco.com/dynamed/docs/searching-content-using-get-deprecated.md): This endpoint is deprecated.
+- [Searching for Suggestions GET V1](https://developer.ebsco.com/dynamed/docs/searching-for-suggestions-get.md): This endpoint is deprecated.
+
+## Guides: ARTICLES
+- [Retrieving an Article by ID GET V2](https://developer.ebsco.com/dynamed/docs/retrieving-an-article-by-id-get-v2.md)
+- [Retrieving an Article by Slug GET V2](https://developer.ebsco.com/dynamed/docs/retrieving-an-article-by-slug-get-v2.md)
+- [Searching for Updated Article's Metadata GET V2](https://developer.ebsco.com/dynamed/docs/searching-for-article-metadata-get-v2.md)
+- [Retrieving Change Alerts GET](https://developer.ebsco.com/dynamed/docs/retrieving-change-alerts-get.md)
+- [Retrieving an Article by ID GET V1](https://developer.ebsco.com/dynamed/docs/retrieving-an-article-by-id-get-depr.md): This endpoint is deprecated.
+- [Retrieving an Article by Slug GET V1](https://developer.ebsco.com/dynamed/docs/retrieving-an-article-by-slug-get-depr.md): This endpoint is deprecated.
+- [Searching for Updated Article's Metadata GET V1](https://developer.ebsco.com/dynamed/docs/searching-for-article-metadata-get-depr.md): This endpoint is deprecated.
+
+## Guides: MEDIA RESOURCES
+- [Retrieving Updated Media's Metadata GET V2](https://developer.ebsco.com/dynamed/docs/retrieving-media-metadata-get-v2.md)
+
+## Guides: Chemo Regimens
+- [Retrieving Chemo Regimen Agents GET](https://developer.ebsco.com/dynamed/docs/retrieving-chemo-regimen-agents-get.md)
+- [Retrieving Chemo Regimen Templates by Agent Name GET](https://developer.ebsco.com/dynamed/docs/retrieving-chemo-regimen-templates-by-agent-name-get.md)
+- [Retrieving Chemo Regimen Diseases GET](https://developer.ebsco.com/dynamed/docs/retrieving-chemo-regimen-diseases-get.md)
+- [Retrieving Chemo Regimen Templates by Disease Name GET](https://developer.ebsco.com/dynamed/docs/retrieving-chemo-regimen-templates-by-disease-name-get.md)
+
+## Guides: Publication Types & Categories
+- [Searching for Publication Types GET](https://developer.ebsco.com/dynamed/docs/seaching-for-publication-types-get.md)
+- [Searching for Categories GET V2](https://developer.ebsco.com/dynamed/docs/searching-for-categories-get-v2.md)
+- [Searching for Categories GET V1](https://developer.ebsco.com/dynamed/docs/searching-for-categories-get-depr.md): This endpoint is deprecated.
+- [Searching for Categories by ID GET V1](https://developer.ebsco.com/dynamed/docs/searching-for-categories-by-id-get.md)
+
+## Guides: USER RESOURCES
+- [Retrieving Article Views GET](https://developer.ebsco.com/dynamed/docs/retrieving-article-views-get.md)
+- [Storing Article Views POST](https://developer.ebsco.com/dynamed/docs/storing-article-views-post.md)
+- [Retrieving Continuing Education Counts GET](https://developer.ebsco.com/dynamed/docs/retrieving-continuing-education-counts-get.md)
+- [Retrieving Detailed Claims GET](https://developer.ebsco.com/dynamed/docs/retrieving-detailed-claims-get.md)
+- [Retrieving Followed Articles GET](https://developer.ebsco.com/dynamed/docs/retrieving-followed-articles-get.md)
+- [Adding a Followed Article POST](https://developer.ebsco.com/dynamed/docs/adding-a-followed-article-post.md)
+- [Removing a Followed Article DELETE](https://developer.ebsco.com/dynamed/docs/removing-a-followed-article-delete.md)
+- [Retrieving Followed Specialties GET](https://developer.ebsco.com/dynamed/docs/retrieving-followed-specialties-get.md)
+- [Adding a Specialty POST](https://developer.ebsco.com/dynamed/docs/adding-a-specialty-post.md)
+- [Removing a Followed Specialty DELETE](https://developer.ebsco.com/dynamed/docs/removing-a-followed-specialty-delete.md)
+- [Retrieving Change Alerts GET](https://developer.ebsco.com/dynamed/docs/retrieving-change-alerts-get-1.md)
+- [Retrieving a Transfer Token POST](https://developer.ebsco.com/dynamed/docs/retrieving-a-transfer-token-post.md)
+- [Retrieving Trusted App Token GET](https://developer.ebsco.com/dynamed/docs/retrieving-trusted-app-token-get.md)
+- [Retrieving Trusted App Token GET V1](https://developer.ebsco.com/dynamed/docs/retrieving-trusted-app-token-get-depr.md): This endpoint is deprecated.
+
+## Guides: DYNAMEDEX
+- [Retrieving Drug Article Section GET](https://developer.ebsco.com/dynamed/docs/retrieving-article-details-get.md)
+- [Retrieving Drug Article Table of Contents GET](https://developer.ebsco.com/dynamed/docs/retrieving-drug-article-table-of-contents-get.md)
+- [Searching for MMX Article Metadata GET V2](https://developer.ebsco.com/dynamed/docs/searching-for-article-metadata-get-v2-1.md)
+- [Searching for Article Metadata GET V1](https://developer.ebsco.com/dynamed/docs/searching-for-article-metadata-get-depr-1.md): This endpoint is deprecated.
+
+## Guides: RESOURCES
+- [Response Codes](https://developer.ebsco.com/dynamed/docs/response-codes.md)
+
+## API Reference: DynaMed & DynaMedex
+- Authorization
+  - [Get an authorization token](https://developer.ebsco.com/dynamed/reference/post-token.md): Get an authorization token for DynaMed or DynaMedex (depending on the Base URL chosen)
+- Dyna AI
+  - [Question DynaMed or DynaMedex Content](https://developer.ebsco.com/dynamed/reference/post-rag-v1.md): Return answers and references to questions from DynaMed or DynaMedex content. The answer will be streaming, but using this Open API spec will not send response until complete.
+  - [Get Dyna AI search configuration](https://developer.ebsco.com/dynamed/reference/get-rag-config-v1.md): Gets configuration data for Dyna AI search, such as recommended questions to display to the user.
+  - [Get all Dyna AI Conversations for a user](https://developer.ebsco.com/dynamed/reference/get-rag-conversations-v1.md): Gets basic information on all conversations for the specified user. Only returns the top-level (question, query, timestamp) information for the most recent message in the conversation.
+  - [Delete all Dyna AI Conversations for a user](https://developer.ebsco.com/dynamed/reference/delete-rag-conversations-v1.md): Deletes all conversations for the specified user
+  - [Get a single Dyna AI Conversation for a user](https://developer.ebsco.com/dynamed/reference/get-conversation-by-id-v1.md): Gets the messages information for a single conversation for the specified user.
+  - [Delete Dyna AI Conversation by ID](https://developer.ebsco.com/dynamed/reference/delete-rag-conversation-by-id-v1.md): Deletes the single conversation specified for the specified user
+- Search
+  - [Search DynaMed or DynaMedex Content](https://developer.ebsco.com/dynamed/reference/post-search-v2.md): Search DynaMed or DynaMedex Articles and Media
+  - [Search for Suggestions](https://developer.ebsco.com/dynamed/reference/get-search-suggestion-v2.md): Suggest terms to search for based on a string of characters.
+  - [Search DynaMed Content V1](https://developer.ebsco.com/dynamed/reference/post-search-v1.md): DEPRECATED Use - /v2/content/search - Search DynaMed Articles and Media
+  - [Search DynaMed Content V1](https://developer.ebsco.com/dynamed/reference/get-search.md): DEPRECATED Use - /v2/content/search
+  - [Search for Suggestions V1](https://developer.ebsco.com/dynamed/reference/get-search-suggestion.md): DEPRECATED use /v2/content/search/suggestions
+- Articles
+  - [Retrieve an Article by ID](https://developer.ebsco.com/dynamed/reference/get-article.md): Additional Documentation [/articles/{articleId}](https://developer.ebsco.com/medsapi-content-articles)
+  - [List Updated Articles](https://developer.ebsco.com/dynamed/reference/get-v2-products-product-content-articles-updates.md): Return a list of updated article's metadata within a date range
+  - [Retrieve an Article by Slug](https://developer.ebsco.com/dynamed/reference/get_v2-content-slugs-slug.md): The endpoint returns the article for a provided slug. Slugs are made up as `/pubType/articleTitle`.
+  - [Retrieve Change Alerts](https://developer.ebsco.com/dynamed/reference/get-change-alerts.md): The DynaMed API GET /content/change-alerts endpoint returns change alerts for all topics.
+  - [Retrieve an Article by ID V1](https://developer.ebsco.com/dynamed/reference/get-article-deprecated.md): [use /v2/content/articles/{articleId}]
+  - [List Updated Articles V1](https://developer.ebsco.com/dynamed/reference/get-v1-products-product-articles-updates.md): [use /v2/content/articles] - Return list of updated articles within a given range
+  - [Retrieve an Article by Slug V1](https://developer.ebsco.com/dynamed/reference/get_v1-content-slugs-slug.md): [use /v2/content/slugs] - The endpoint returns the article for a provided slug. Slugs are made up as `/pubType/articleTitle`.
+- Media
+  - [Retrieve Media Metadata](https://developer.ebsco.com/dynamed/reference/get-media-by-pubtype.md): The endpoint returns a list of media resources of requested pubType
+- Chemo Regimens
+  - [Retrieve the list of chemo regimen agents](https://developer.ebsco.com/dynamed/reference/getchemoregimenagents.md)
+  - [Retrieve chemo regimen templates for a given agent name](https://developer.ebsco.com/dynamed/reference/getchemoregimentemplatesbyagentname.md)
+  - [Retrieve the list of chemo regimen diseases](https://developer.ebsco.com/dynamed/reference/getchemoregimendiseases.md)
+  - [Retrieve chemo regimen templates for a given disease name](https://developer.ebsco.com/dynamed/reference/getchemoregimentemplatesbydiseasename.md)
+- Publication Types & Categories
+  - [Search for Publication Types](https://developer.ebsco.com/dynamed/reference/pubtypesusingget.md): Get resource classification for the content which are used in conjunction with the search endpoint to perform a search query.Additional Documentation…
+  - [Search for Categories](https://developer.ebsco.com/dynamed/reference/get-categories-v2.md): Additional Documentation [/categories](/dynamed/docs/searching-for-categories-get-v2)
+  - [Search for Categories V1](https://developer.ebsco.com/dynamed/reference/get-categories-v1.md): Additional Documentation [/categories](https://developer.ebsco.com/medical-point-care-apis/dynamed/docs/get-categories)
+  - [Search for Categories by ID V1](https://developer.ebsco.com/dynamed/reference/get-categories-id.md): Additional Documentation [/categories/{categoriesId}](https://developer.ebsco.com/medical-point-care-apis/dynamed/docs/get-categories-id)
+- User
+  - [Retrieve Detailed Claims](https://developer.ebsco.com/dynamed/reference/getdetailedclaimsusingget.md): Return a list of previously claimed credits.
+  - [Retrieve Continuing Education Counts](https://developer.ebsco.com/dynamed/reference/getcmecreditsget.md): Continuing Medical Education endpoint to deliver CME credit counts for end users.
+  - [Store Article Views](https://developer.ebsco.com/dynamed/reference/postarticleviewsusingpost.md): Store multiple article view events.
+  - [Retrieve Article Views](https://developer.ebsco.com/dynamed/reference/get-v1-user-viewed-articles.md): This endpoint to get DynaMed most recently viewed articles as per a given user
+  - [Retrieve Followed Articles](https://developer.ebsco.com/dynamed/reference/get-user-followed-articles.md): Gets all specialties & topics a user is following.
+  - [Add a Followed Article](https://developer.ebsco.com/dynamed/reference/post-user-followed-articles.md): Additional Documentation [/user/article-views](https://developer.ebsco.com/post-followed-articles)
+  - [Remove a Followed Article](https://developer.ebsco.com/dynamed/reference/delete-v1-products-productid-user-followed-articles.md): Additional Documentation [/user/article-views](https://developer.ebsco.com/delete-followed-articles)
+  - [Retrieve Followed Specialities](https://developer.ebsco.com/dynamed/reference/get-user-followed-specialties.md): Gets all specialties a user is following.
+  - [Add a Followed Specialty](https://developer.ebsco.com/dynamed/reference/post-user-followed-specialties.md): Additional Documentation [/user/followed-specialties](https://developer.ebsco.com/medsapi-post-followed-specialties)
+  - [Remove a Followed Specialty](https://developer.ebsco.com/dynamed/reference/delete-v1-products-productid-user-followed-specialties.md): Additional Documentation [/user/followed-specialties](https://developer.ebsco.com/medsapi-delete-followed-specialties)
+  - [Retrieve User Change Alerts](https://developer.ebsco.com/dynamed/reference/get-content-change-alerts.md): The DynaMed API GET /user/content-change-alerts endpoint returns change alerts for all topics. The endpoint also returns change alerts for followed topics if there are any.
+  - [Retrieve a Transfer Token](https://developer.ebsco.com/dynamed/reference/post-transfertoken-v1.md): The DynaMed POST /user/transfer-token endpoint returns a transfer token. The purpose of the transfer token is to facilitate seamless authorization between various EBSCO products.
+  - [Retrieve a Trusted App Token](https://developer.ebsco.com/dynamed/reference/get-trusted-app-token-v1.md): Get a JWT token to authenticate EBSCO users
+  - [Retrieve a Trusted App Token](https://developer.ebsco.com/dynamed/reference/gettokensusingget.md): [Deprecated - use User Get Endpoint] Get a JWT token to authenticate EBSCO users. Additional Documentation…
+- DynaMedex
+  - [Retrieve DynaMedex Drug Details Section](https://developer.ebsco.com/dynamed/reference/get_v1-content-slugs-slug-detail-sections-sectionid.md): The endpoint returns the drug detail section for a provided slug and section. Slugs are made up as `/pubType/articleTitle`.
+  - [Retrieve DynaMedex Section Table of Contents](https://developer.ebsco.com/dynamed/reference/get_v1-content-slugs-slug-detail-toc.md): The endpoint returns the drug table of content for a provided slug. Slugs are made up as `/pubType/articleTitle`.
+  - [Search for Article Metadata](https://developer.ebsco.com/dynamed/reference/topic-metadata-v2.md): The DynaMedex API GET /publishers/{publisherId}/documents/{documentId} endpoint returns the article metadata matching the publisher and document ID provided. The publisher ID and article ID…
+  - [Search for Article Metadata](https://developer.ebsco.com/dynamed/reference/topic-metadata-v1.md): Additional Documentation [/publishers/{publisherId}/documents/{documentId}](https://developer.ebsco.com/medical-point-care-apis/dynamed/docs/get-article-metadata)
+- MCP
+  - [Dyna MCP Request endpoint](https://developer.ebsco.com/dynamed/reference/post-mcp-v1.md): Handles initialization and requests for a Dyna MCP session. Requires JSON-RPC body and may require 'mcp-session-id' header.
+  - [Get events for an MCP Dyna session](https://developer.ebsco.com/dynamed/reference/get-v1-content-search-mcp.md): Method not allowed in stateless mode. This tells MCP client. Requires 'mcp-session-id' header.
+  - [Delete an MCP Dyna session (when in State mode)](https://developer.ebsco.com/dynamed/reference/delete-v1-content-search-mcp.md): Method not allowed in stateless mode and will terminate an MCP session. Requires 'mcp-session-id' header.
+
+
+# Dynamic Health Documentation
+
+> Documentation for Dynamic Health
+
+## Guides: OVERVIEW
+- [Introduction](https://developer.ebsco.com/dynamic-health/docs/getting-started.md)
+- [Registering a Client App](https://developer.ebsco.com/dynamic-health/docs/registering-a-client-app.md)
+- [Using the Client Credentials Grant](https://developer.ebsco.com/dynamic-health/docs/using-the-client-credentials-grant.md)
+- [Making Your First Request](https://developer.ebsco.com/dynamic-health/docs/making-your-first-request.md)
+- [Cloning a Code Sample](https://developer.ebsco.com/dynamic-health/docs/cloning-a-code-sample.md)
+- [Media Responses](https://developer.ebsco.com/dynamic-health/docs/media-responses.md)
+- [Application Considerations](https://developer.ebsco.com/dynamic-health/docs/version-compatibility.md)
+
+## Guides: Dyna AI
+- [Questioning Dyna Content POST](https://developer.ebsco.com/dynamic-health/docs/questioning-dyna-content-post.md)
+- [ Retrieving Dyna Conversations History GET](https://developer.ebsco.com/dynamic-health/docs/retrieving-dyna-conversations-history-get.md)
+- [Remove Dyna Conversations History DELETE](https://developer.ebsco.com/dynamic-health/docs/remove-dyna-conversations-history-delete.md)
+- [Retrieving Dyna Conversation History by ID GET](https://developer.ebsco.com/dynamic-health/docs/retrieving-dyna-conversation-history-by-id-get.md)
+- [Removing Dyna Conversation History by ID DELETE](https://developer.ebsco.com/dynamic-health/docs/removing-dyna-conversation-history-by-id-delete.md)
+
+## Guides: SEARCH
+- [Searching Content POST](https://developer.ebsco.com/dynamic-health/docs/search-content-post.md)
+- [Searching for Suggestions GET](https://developer.ebsco.com/dynamic-health/docs/searching-for-suggestions-get.md)
+
+## Guides: ARTICLES
+- [Retrieving an Article by ID GET](https://developer.ebsco.com/dynamic-health/docs/retrieving-an-article-by-id-get.md)
+- [Searching for Updated Article's Metadata GET](https://developer.ebsco.com/dynamic-health/docs/searching-for-updated-articles-metadata-get.md)
+
+## Guides: Publications & CATEGORIES
+- [Retrieving PubTypes GET](https://developer.ebsco.com/dynamic-health/docs/retrieving-pubtypes-get.md)
+- [Retrieving a List of Categories GET](https://developer.ebsco.com/dynamic-health/docs/retrieving-a-list-of-categories-get.md)
+
+## Guides: CUSTOM ARTICLES and NOTES
+- [Retrieving Article Notes GET](https://developer.ebsco.com/dynamic-health/docs/retrieving-an-article-note-get.md)
+- [Retrieving All Custom Articles GET](https://developer.ebsco.com/dynamic-health/docs/retrieving-all-custom-articles-get.md)
+- [Retrieving a Custom Article GET](https://developer.ebsco.com/dynamic-health/docs/retrieving-a-custom-article-get.md)
+
+## Guides: CONTENT EXCLUSIONS
+- [Retrieving All Article Exclusions GET](https://developer.ebsco.com/dynamic-health/docs/retrieving-all-article-exclusions-get.md)
+- [Retrieving PubType Exclusions GET](https://developer.ebsco.com/dynamic-health/docs/retrieving-pubtype-exclusions-get.md)
+
+## Guides: USER RESOURCES
+- [Retrieving Medical Education Credits GET](https://developer.ebsco.com/dynamic-health/docs/retrieving-medical-education-credits-get.md)
+- [Retrieving Article Views GET](https://developer.ebsco.com/dynamic-health/docs/retrieving-article-views-get.md)
+- [Storing Article Views POST](https://developer.ebsco.com/dynamic-health/docs/storing-article-views-post.md)
+- [Retrieving a Transfer Token POST](https://developer.ebsco.com/dynamic-health/docs/retrieving-a-transfer-token-post.md)
+
+## Guides: MCP
+- [Starting an MCP Session](https://developer.ebsco.com/dynamic-health/docs/starting-an-mcp-session.md)
+- [Retrieving MCP Events](https://developer.ebsco.com/dynamic-health/docs/retrieving-mcp-events.md)
+- [Deleting an MCP Session](https://developer.ebsco.com/dynamic-health/docs/deleting-an-mcp-session.md)
+
+## Guides: RESOURCES
+- [Response Codes](https://developer.ebsco.com/dynamic-health/docs/response-codes.md)
+
+## API Reference: Dynamic Health
+- Authorization
+  - [Get an authorization token](https://developer.ebsco.com/dynamic-health/reference/post-token.md): Get an authorization token. The preferred endpoint is https://apis.ebsco.com/medsapi-auth/v1/token, but for ease of use on this page /dynamic-health/v1/auth-token can also be used to get a token.…
+- Dyna AI
+  - [Questioning Dyna Content](https://developer.ebsco.com/dynamic-health/reference/post-rag-v1.md): Return answers and references to questions from Dynamic Health content
+  - [Get all Dyna AI Conversations for a user](https://developer.ebsco.com/dynamic-health/reference/get-rag-conversations-v1.md): Gets basic information on all conversations for the specified user. Only returns the top-level (question, query, timestamp) information for the most recent message in the conversation.
+  - [Delete all Dyna AI Conversations for a user](https://developer.ebsco.com/dynamic-health/reference/delete-rag-conversations-v1.md): Deletes all conversations for the specified user
+  - [Get a single Dyna AI Conversation for a user](https://developer.ebsco.com/dynamic-health/reference/get-conversation-by-id-v1.md): Gets the messages information for a single conversation for the specified user.
+  - [Delete Dyna AI Conversation by ID](https://developer.ebsco.com/dynamic-health/reference/delete-rag-conversation-by-id-v1.md): Deletes the single conversation specified for the specified user
+- Search
+  - [Search DH content](https://developer.ebsco.com/dynamic-health/reference/post-search-v1.md): Additional Documentation [/content/search](https://developer.ebsco.com/dynamic-health/docs/search-content-post)
+  - [Get a list of search suggestions](https://developer.ebsco.com/dynamic-health/reference/get-search-suggestions.md): Get a list of search suggestions, either word completions (term) or article completions (title), based on the users access.
+- Articles
+  - [Get article by ID](https://developer.ebsco.com/dynamic-health/reference/get-article-by-id.md): Additional Documentation [/content/articles/{id}](https://developer.ebsco.com/dynamic-health/docs/retrieving-an-article-by-id-get)
+  - [List Updated Articles](https://developer.ebsco.com/dynamic-health/reference/get-v1-products-product-articles-updates.md): The /v1/content/articles endpoint returns metadata for articles published within a specified date range.
+- Publications & Categories
+  - [Search for Publication Types](https://developer.ebsco.com/dynamic-health/reference/pubtypesusingget.md): Get resource classification for the content which are used in conjunction with the search endpoint to perform a search query.
+  - [Get a list of Content Categories](https://developer.ebsco.com/dynamic-health/reference/get-content-categories.md): Get a list of Content Categories. Optionally filter to only top-level categories or to the path of a specific category.
+- Custom Articles
+  - [Get all custom articles](https://developer.ebsco.com/dynamic-health/reference/get-custom-articles.md): Get all articles that are custom for your institution.
+  - [Get a custom article by ID](https://developer.ebsco.com/dynamic-health/reference/get-custom-article-by-id.md): Get a custom articles from your institution.
+- Article Notes
+  - [Get all article notes](https://developer.ebsco.com/dynamic-health/reference/get-article-notes.md): Get all articles that have notes written by your institution. Optionally filter to only articles with notes related to a specific article ID.
+- Content Exclusions
+  - [Get all excluded articles](https://developer.ebsco.com/dynamic-health/reference/get-all-article-exclusions.md): Get all articles from the Dynamic Health content that your institution has excluded. Please note that an empty array will be returned in case no articles are excluded for your institution.
+  - [Get excluded pubtypes](https://developer.ebsco.com/dynamic-health/reference/getpubtypeexclusions.md): Retrieve excluded pubtypes for a given customer
+- User
+  - [Get Continuing Education Credits](https://developer.ebsco.com/dynamic-health/reference/get-ce-counter.md): Get Continuing Education Credits for a user
+  - [Get Recent Article Views](https://developer.ebsco.com/dynamic-health/reference/get-article-views.md): Get Recent Article Views For This User
+  - [Store Article View Events](https://developer.ebsco.com/dynamic-health/reference/post-store-article-views.md): This endpoint allows for multiple article views to be stored with a single request. The items array in the request body should contain an object for each article view to be stored.
+  - [Fetch a transferToken](https://developer.ebsco.com/dynamic-health/reference/post-transfertoken.md): Returns a transfer token to facilitate seamless authorization between various EBSCO products
+- MCP
+  - [Dyna MCP Request endpoint](https://developer.ebsco.com/dynamic-health/reference/post-mcp-v1.md): Handles initialization and requests for a Dyna MCP session. Requires JSON-RPC body and may require 'mcp-session-id' header.
+  - [Get events for an MCP Dyna session](https://developer.ebsco.com/dynamic-health/reference/get-v1-content-search-mcp.md): Method not allowed in stateless mode. This tells MCP client. Requires 'mcp-session-id' header.
+  - [Delete an MCP Dyna session (when in State mode)](https://developer.ebsco.com/dynamic-health/reference/delete-v1-content-search-mcp.md): Method not allowed in stateless mode and will terminate an MCP session. Requires 'mcp-session-id' header.
+
+
+# DynaMed Decisions Documentation
+
+> Documentation for DynaMed Decisions
+
+## Guides: OVERVIEW
+- [Introduction](https://developer.ebsco.com/dynamed-decisions/docs/getting-started.md)
+- [Registering a Client App](https://developer.ebsco.com/dynamed-decisions/docs/registering-a-client-app.md)
+- [Using the Client Credentials Grant](https://developer.ebsco.com/dynamed-decisions/docs/using-the-client-credentials-grant.md)
+- [Making Your First Request](https://developer.ebsco.com/dynamed-decisions/docs/making-your-first-request.md)
+- [Cloning a Code Sample](https://developer.ebsco.com/dynamed-decisions/docs/cloning-a-code-sample.md)
+- [Application Considerations](https://developer.ebsco.com/dynamed-decisions/docs/version-compatibility.md)
+
+## Guides: TOOLS
+- [Retrieving All Tools](https://developer.ebsco.com/dynamed-decisions/docs/retrieving-all-tools.md)
+- [Retrieving a Tool by ID](https://developer.ebsco.com/dynamed-decisions/docs/retrieving-a-tool-by-id.md)
+
+## Guides: RESOURCES
+- [Response Codes](https://developer.ebsco.com/dynamed-decisions/docs/response-codes.md)
+
+## API Reference: MedsAPI DynaMed Decisions
+- Authorization
+  - [Get an authorization token](https://developer.ebsco.com/dynamed-decisions/reference/post-token.md): The authentication endpoint for getting a token, used in all other Dynamic Decisions APIs.
+- Tools
+  - [List Available Tools](https://developer.ebsco.com/dynamed-decisions/reference/get_content-tools.md): Get all tools that the user has access to.
+  - [Get Tool by Id](https://developer.ebsco.com/dynamed-decisions/reference/get_content-tools-id.md): Get a DynaMed Decisions tool by its unique identifier.
+
+
+# Consumer Health Documentation
+
+> Documentation for Consumer Health
+
+## Guides: OVERVIEW
+- [Introduction](https://developer.ebsco.com/consumer-health/docs/introduction.md)
+- [Registering a Client App](https://developer.ebsco.com/consumer-health/docs/registering-a-client-app.md)
+- [Using the Client Credentials Grant](https://developer.ebsco.com/consumer-health/docs/using-the-client-credentials-grant.md)
+- [Making Your First Request](https://developer.ebsco.com/consumer-health/docs/making-your-first-request.md)
+- [Cloning a Code Sample](https://developer.ebsco.com/consumer-health/docs/cloning-a-code-sample.md)
+- [Application Considerations](https://developer.ebsco.com/consumer-health/docs/version-compatability.md)
+
+## Guides: Search
+- [Searching Content](https://developer.ebsco.com/consumer-health/docs/searching-content.md)
+
+## Guides: Articles
+- [Retrieving an Article by ID GET](https://developer.ebsco.com/consumer-health/docs/retrieving-an-article-by-id-get.md)
+- [Searching for Updated Article's Metadata GET](https://developer.ebsco.com/consumer-health/docs/searching-for-updated-articles-metadata-get.md)
+
+## Guides: RESOURCES
+- [Response Codes](https://developer.ebsco.com/consumer-health/docs/response-codes.md)
+
+## API Reference: Consumer Health
+- Authorization
+  - [Get an authorization token](https://developer.ebsco.com/consumer-health/reference/post-token.md): The authentication endpoint for getting a token, used in all other Consumer Health APIs.
+- Consumer Health
+  - [Search Consumer Health content](https://developer.ebsco.com/consumer-health/reference/post-search-v1.md): Additional Documentation [/content/search](/consumer-health/v1.0_guide%2FconsumerHealth/update/docs/searching-content-post)
+  - [GET Article by ID](https://developer.ebsco.com/consumer-health/reference/get-product-content.md): Additional Documentation [/content/article](/consumer-health/v1.0_guide%2FconsumerHealth/update/docs/retrieving-an-article-by-id-get)
+  - [List Updated Articles](https://developer.ebsco.com/consumer-health/reference/get-v1-products-product-content-articles-updates.md): The /content/articles endpoint returns metadata for articles published within a specified date range. The updatedAt timestamp is not necessarily related to editors updating the article with new…
+
+
+# NAH Reference Center Documentation
+
+> Documentation for NAH Reference Center
+
+## Guides: Documentation
+- [Introduction](https://developer.ebsco.com/nah-reference-center/docs/introduction.md)
+- [Registering a Client App](https://developer.ebsco.com/nah-reference-center/docs/registering-a-client-app.md)
+- [Using the Client Credentials Grant](https://developer.ebsco.com/nah-reference-center/docs/using-the-client-credentials-grant.md)
+- [Making Your First Request](https://developer.ebsco.com/nah-reference-center/docs/making-your-first-request.md)
+- [Cloning a Code Sample](https://developer.ebsco.com/nah-reference-center/docs/cloning-a-code-sample.md)
+- [Application Considerations](https://developer.ebsco.com/nah-reference-center/docs/version-compatibility.md)
+
+## Guides: ARTICLES
+- [Retrieving an Article by ID](https://developer.ebsco.com/nah-reference-center/docs/retrieving-articles-by-id.md)
+- [Searching for Updated Article's Metadata](https://developer.ebsco.com/nah-reference-center/docs/retrieving-metadata-for-articles.md)
+
+## Guides: RESOURCES
+- [Response Codes](https://developer.ebsco.com/nah-reference-center/docs/response-codes.md)
+
+## API Reference: MedsAPI Nursing and Allied Health Reference Center
+- Authorization
+  - [Get an authorization token](https://developer.ebsco.com/nah-reference-center/reference/post-token.md): The authentication endpoint for getting a token, used in all other NAH Reference Center APIs.
+- Reference Center
+  - [Get an article by Id](https://developer.ebsco.com/nah-reference-center/reference/get_v1-content-articles-id.md): The Nursing and Allied Health Reference Center API GET /v1/content/articles/{articleId} endpoint returns the article matching the article id provided. The article id is a required parameter for the…
+  - [List Updated Articles](https://developer.ebsco.com/nah-reference-center/reference/get-v1-products-product-content-articles-updates.md): The /v1/content/articles endpoint returns metadata for articles published within a specified date range.
+
+
+# Product Content Documentation
+
+> Documentation for Product Content
+
+## Guides: Documentation
+- [Introduction](https://developer.ebsco.com/medical-product-content/docs/introduction.md)
+- [Registering a Client App](https://developer.ebsco.com/medical-product-content/docs/registering-a-client-app.md)
+- [Using the Client Credentials Grant](https://developer.ebsco.com/medical-product-content/docs/using-the-client-credentials-grant.md)
+- [Making Your First Request](https://developer.ebsco.com/medical-product-content/docs/making-your-first-request.md)
+- [Cloning a Code Sample](https://developer.ebsco.com/medical-product-content/docs/cloning-a-code-sample.md)
+- [Application Considerations](https://developer.ebsco.com/medical-product-content/docs/application-considerations.md)
+
+## Guides: ARTICLES
+- [Retrieving Articles by ID GET](https://developer.ebsco.com/medical-product-content/docs/retrieving-articles-by-id-get.md)
+- [Retrieving Articles GET](https://developer.ebsco.com/medical-product-content/docs/retrieving-articles-get.md)
+
+## Guides: RESOURCES
+- [Response Codes](https://developer.ebsco.com/medical-product-content/docs/response-codes.md)
+
+## API Reference: Product Content
+- Authorization
+  - [Get an authorization token](https://developer.ebsco.com/medical-product-content/reference/post-token.md): The authentication endpoint for getting a token, used in all other Dynamic Health APIs.
+- Articles
+  - [Get an article by ID](https://developer.ebsco.com/medical-product-content/reference/get-article.md): Additional Documentation [/articles/{articleId}](/medical-product-content/docs/retrieving-articles-get). See also the documentation for the /articles/{articleId} endpoint for each MedsAPI product for…
+  - [GET a list of articles and metadata that have been updated](https://developer.ebsco.com/medical-product-content/reference/get-v1-products-product-articles-updates.md): Return list of updated articles within a given range
+

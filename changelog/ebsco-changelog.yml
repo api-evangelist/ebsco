@@ -1,0 +1,22 @@
+generated: '2026-10-14'
+method: searched
+generator: extract-docs-artifacts.py (local)
+source: https://developer.ebsco.com/entitlement-api/changelog/ebscohost-entitlement-api-11112024.md
+sources:
+- https://developer.ebsco.com/entitlement-api/changelog/ebscohost-entitlement-api-11112024.md
+- https://developer.ebsco.com/entitlement-api/changelog/welcome-to-ebsco-5.md
+- https://developer.ebsco.com/bibframe-lite/changelog/welcome-to-ebsco-7.md
+- https://developer.ebsco.com/knowledge-services/reference/findpublicationsusingget.md
+entries:
+- breaking: false
+  highlights:
+  - Added the **Get Full Text Links V3** resource.
+  - The **Get Full Text Links V3** resource allows you to use a DOI, or Digital Object Identifier, to get access to full text links.
+  date: '2024-11-11'
+- breaking: false
+  highlights:
+  - Initial Release of the EBSCOhost Entitlement API
+  date: '2020-09-16'
+scheme: date-based (MM.DD.YYYY)
+current_version: 11.11.2024
+docs: https://developer.ebsco.com/entitlement-api/changelog/ebscohost-entitlement-api-11112024.md

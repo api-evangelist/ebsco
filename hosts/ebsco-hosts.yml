@@ -1,0 +1,175 @@
+generated: '2026-10-14'
+method: derived
+source: the pre-flight dossier, apis.yml pointers, spec servers, well-known, vendors -- nothing fetched here
+generator: derive-hosts.py
+summary:
+  hosts: 13
+  own: 12
+  other_domain: 0
+  platform: 1
+  roles:
+  - api
+  - identity
+  - legal
+  - other
+  - portal
+  - source
+  - status
+  - website
+hosts:
+- host: about.ebsco.com
+  found_by:
+  - pointer
+  - probed
+  - site-links
+  - contract-discovery
+  - well-known
+  types:
+  - Leadership
+  serves: []
+  registrable_domain: ebsco.com
+  role: other
+  relation: own
+- host: api.ebsco.com
+  found_by:
+  - contract-discovery
+  types: []
+  serves: []
+  registrable_domain: ebsco.com
+  role: api
+  relation: own
+- host: apis.ebsco.com
+  found_by:
+  - apis[]
+  - vendor-detect
+  types: []
+  serves:
+  - api
+  - api-gateway
+  - developer-portal
+  vendor: apigee
+  registrable_domain: ebsco.com
+  role: api
+  relation: own
+- host: assets.ebsco.com
+  found_by:
+  - probed
+  - site-links
+  - contract-discovery
+  - well-known
+  types: []
+  serves: []
+  registrable_domain: ebsco.com
+  role: other
+  relation: own
+- host: connect.ebsco.com
+  found_by:
+  - probed
+  - site-links
+  - contract-discovery
+  - well-known
+  types: []
+  serves: []
+  registrable_domain: ebsco.com
+  role: other
+  relation: own
+- host: developer.ebsco.com
+  found_by:
+  - pointer
+  - apis[]
+  - probed
+  - site-links
+  - namespace-probe
+  - docs-index
+  - well-known
+  - vendor-detect
+  types:
+  - GettingStarted
+  - Documentation
+  - DeveloperPortal
+  serves:
+  - docs
+  - cdn
+  title: EBSCO Developer Network
+  status: 200
+  vendor: cloudflare
+  registrable_domain: ebsco.com
+  role: portal
+  relation: own
+- host: experience.ebsco.com
+  found_by:
+  - probed
+  - site-links
+  - well-known
+  types: []
+  serves: []
+  registrable_domain: ebsco.com
+  role: other
+  relation: own
+- host: github.com
+  found_by:
+  - pointer
+  types:
+  - GitHubOrganization
+  serves: []
+  registrable_domain: github.com
+  role: source
+  relation: platform
+- host: legal.ebsco.com
+  found_by:
+  - pointer
+  - probed
+  - site-links
+  - well-known
+  types:
+  - TermsOfService
+  - PrivacyPolicy
+  serves: []
+  registrable_domain: ebsco.com
+  role: legal
+  relation: own
+- host: login.ebsco.com
+  found_by:
+  - probed
+  - site-links
+  - well-known
+  types: []
+  serves: []
+  registrable_domain: ebsco.com
+  role: identity
+  relation: own
+- host: more.ebsco.com
+  found_by:
+  - probed
+  - site-links
+  types: []
+  serves: []
+  registrable_domain: ebsco.com
+  role: other
+  relation: own
+- host: status.ebsco.com
+  found_by:
+  - pointer
+  - probed
+  - site-links
+  types:
+  - StatusPage
+  serves: []
+  registrable_domain: ebsco.com
+  role: status
+  relation: own
+- host: www.ebsco.com
+  found_by:
+  - pointer
+  - probed
+  - contract-discovery
+  - well-known
+  - vendor-detect
+  types:
+  - Website
+  serves:
+  - cdn
+  vendor: cloudfront
+  registrable_domain: ebsco.com
+  role: website
+  relation: own

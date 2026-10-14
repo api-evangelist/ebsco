@@ -1,0 +1,115 @@
+generated: '2026-10-14'
+method: probed
+generator: harvest-packages.py
+source: registry metadata endpoints (registry.npmjs.org, pypi.org, rubygems.org, api.nuget.org, packagist.org, crates.io) ; github.com/ebsco
+ownership_rule: 'official: true only when the registry metadata (homepage, repository, author, URLs) names the provider''s domain (ebsco.com,
+  security/ebsco-domain-security.yml) or its accepted GitHub org (ebsco).'
+packages:
+- name: edsapi-koha-plugin
+  registry: github
+  url: https://github.com/ebsco/edsapi-koha-plugin
+  language: Perl
+  official: true
+  version: null
+  published: '2026-02-04'
+  source_repo: https://github.com/ebsco/edsapi-koha-plugin
+  evidence: repository in github.com/ebsco, whose profile names the provider's domain
+- name: edsapi-ruby
+  registry: github
+  url: https://github.com/ebsco/edsapi-ruby
+  language: Ruby
+  official: true
+  version: null
+  published: '2025-06-06'
+  source_repo: https://github.com/ebsco/edsapi-ruby
+  evidence: repository in github.com/ebsco, whose profile names the provider's domain
+- name: edsapi-drupal-plugin
+  registry: github
+  url: https://github.com/ebsco/edsapi-drupal-plugin
+  language: PHP
+  official: true
+  version: null
+  published: '2025-03-18'
+  source_repo: https://github.com/ebsco/edsapi-drupal-plugin
+  evidence: repository in github.com/ebsco, whose profile names the provider's domain
+- name: edsapi-php-sample
+  registry: github
+  url: https://github.com/ebsco/edsapi-php-sample
+  language: PHP
+  official: true
+  version: null
+  published: '2024-12-03'
+  source_repo: https://github.com/ebsco/edsapi-php-sample
+  evidence: repository in github.com/ebsco, whose profile names the provider's domain
+- name: holdingsiq-php-client
+  registry: github
+  url: https://github.com/ebsco/holdingsiq-php-client
+  language: PHP
+  official: true
+  version: null
+  published: '2019-03-29'
+  source_repo: https://github.com/ebsco/holdingsiq-php-client
+  evidence: repository in github.com/ebsco, whose profile names the provider's domain
+- name: ebsco-discovery-service-api-gem
+  registry: github
+  url: https://github.com/ebsco/ebsco-discovery-service-api-gem
+  language: Ruby
+  official: true
+  version: null
+  published: '2017-03-17'
+  source_repo: https://github.com/ebsco/ebsco-discovery-service-api-gem
+  evidence: repository in github.com/ebsco, whose profile names the provider's domain
+- name: Publication-Finder-API-Sample
+  registry: github
+  url: https://github.com/ebsco/Publication-Finder-API-Sample
+  language: PHP
+  official: true
+  version: null
+  published: '2016-04-21'
+  source_repo: https://github.com/ebsco/Publication-Finder-API-Sample
+  evidence: repository in github.com/ebsco, whose profile names the provider's domain
+- name: EDS-API-Mobile-Sample
+  registry: github
+  url: https://github.com/ebsco/EDS-API-Mobile-Sample
+  language: JavaScript
+  official: true
+  version: null
+  published: '2016-04-21'
+  source_repo: https://github.com/ebsco/EDS-API-Mobile-Sample
+  evidence: repository in github.com/ebsco, whose profile names the provider's domain
+- name: mixlibrary-core
+  registry: github
+  url: https://github.com/ebsco/mixlibrary-core
+  language: Ruby
+  official: true
+  version: null
+  published: '2016-01-05'
+  source_repo: https://github.com/ebsco/mixlibrary-core
+  evidence: repository in github.com/ebsco, whose profile names the provider's domain
+- name: edsapi-java-sample
+  registry: github
+  url: https://github.com/ebsco/edsapi-java-sample
+  language: Java
+  official: true
+  version: null
+  published: '2014-08-15'
+  source_repo: https://github.com/ebsco/edsapi-java-sample
+  evidence: repository in github.com/ebsco, whose profile names the provider's domain
+- name: edsapi-vufind-1x
+  registry: github
+  url: https://github.com/ebsco/edsapi-vufind-1x
+  language: ''
+  official: true
+  version: null
+  published: '2014-07-24'
+  source_repo: https://github.com/ebsco/edsapi-vufind-1x
+  evidence: repository in github.com/ebsco, whose profile names the provider's domain
+- name: edsapi-simple-java-sample
+  registry: github
+  url: https://github.com/ebsco/edsapi-simple-java-sample
+  language: Java
+  official: true
+  version: null
+  published: '2014-07-17'
+  source_repo: https://github.com/ebsco/edsapi-simple-java-sample
+  evidence: repository in github.com/ebsco, whose profile names the provider's domain
